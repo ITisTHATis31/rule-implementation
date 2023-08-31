@@ -1,0 +1,727 @@
+2023-08-08 11:01:06,017 :: INFO :: ==============================================================================================================================
+2023-08-08 11:01:06,018 :: INFO :: ###########################################################################
+2023-08-08 11:01:06,018 :: INFO ::  Rule : Check function header of global functions in c files
+2023-08-08 11:01:06,018 :: INFO :: ###########################################################################
+2023-08-08 11:01:06,018 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\Au_FITM.c ..... 
+2023-08-08 11:01:06,022 :: ERROR :: Parameter in header 'void' is not matched with parameters in definition 'const uint8* test_data_a' in line 130
+2023-08-08 11:01:06,022 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'boolean' in line 130
+2023-08-08 11:01:06,025 :: ERROR :: Function name in header 'Au_FITM_MainFunction_QM(void)' is not matched with function name in definition 'Au_FITM_GlobalDataUpdate' in line 342
+2023-08-08 11:01:06,025 :: ERROR :: Parameter in header 'void' is not matched with parameters in definition 'Au_FITM_data_t* A_Au_FITM_DataStructPtr' in line 342
+2023-08-08 11:01:06,025 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\cfg\Au_FITM_cfg.c ..... 
+2023-08-08 11:01:06,027 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,027 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_ClockMon\FIT_ClockMon.c ..... 
+2023-08-08 11:01:06,029 :: ERROR :: Parameter in header 'uint8' is not matched with parameters in definition 'uint32 ACoreID,uint8 ATest_Case_ID' in line 74
+2023-08-08 11:01:06,029 :: ERROR :: Return type in header: 'bool' is not matched with return type in definition 'boolean' in line 74
+2023-08-08 11:01:06,029 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_ClockMon\Cfg\FIT_ClockMon_Cfg.c ..... 
+2023-08-08 11:01:06,031 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,031 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_MPU\FIT_MPU.c ..... 
+2023-08-08 11:01:06,036 :: ERROR :: Parameter in header 'uint8,' is not matched with parameters in definition 'uint8 ATest_Case_ID_u8' in line 137
+2023-08-08 11:01:06,037 :: ERROR :: Parameter in header 'uint8,' is not matched with parameters in definition 'uint8 ATest_Case_ID_u8' in line 153
+2023-08-08 11:01:06,038 :: ERROR :: Parameter in header 'uint8 , uint8' is not matched with parameters in definition 'uint8 ACoreID_u8, uint8 ATest_Case_ID_u8' in line 455
+2023-08-08 11:01:06,039 :: ERROR :: Parameter in header 'uint8 , uint8' is not matched with parameters in definition 'uint8 ACoreID_u8, uint8 ATest_Case_ID_u8' in line 488
+2023-08-08 11:01:06,040 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 525
+2023-08-08 11:01:06,040 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 525
+2023-08-08 11:01:06,041 :: ERROR :: Parameter in header 'uint8 , uint8' is not matched with parameters in definition 'uint8 ACoreID_u8, uint8 ATest_Case_ID_u8' in line 557
+2023-08-08 11:01:06,043 :: ERROR :: Parameter in header 'uint8 , uint8' is not matched with parameters in definition 'uint8 ACoreID_u8, uint8 ATest_Case_ID_u8' in line 739
+2023-08-08 11:01:06,044 :: ERROR :: Parameter in header 'uint8 , uint8' is not matched with parameters in definition 'uint8 ACoreID_u8, uint8 ATest_Case_ID_u8' in line 1001
+2023-08-08 11:01:06,045 :: ERROR :: Parameter in header 'uint8 , uint8' is not matched with parameters in definition 'uint8 ACoreID_u8, uint8 ATest_Case_ID_u8' in line 1038
+2023-08-08 11:01:06,045 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_MPU\Cfg\FIT_MPU_Cfg.c ..... 
+2023-08-08 11:01:06,047 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,047 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_PFLash\FIT_PFlash.c ..... 
+2023-08-08 11:01:06,050 :: ERROR :: Parameter in header 'uint32, uint32' is not matched with parameters in definition 'volatile uint32* PF_Instance_FlashCon3, const uint32 ErrInjTestNumber' in line 44
+2023-08-08 11:01:06,051 :: ERROR :: Parameter in header 'FIT_PFLASH_FLASHCON3_ErrorCode' is not matched with parameters in definition 'FIT_PFLASH_FLASHCON3_ErrorCode ErrorCode' in line 77
+2023-08-08 11:01:06,052 :: ERROR :: Parameter in header 'FIT_PFLASH_Number, FIT_PFLASH_FLASHCON3_ErrorCode' is not matched with parameters in definition 'FIT_PFLASH_Number FIT_PFlash_Number,FIT_PFLASH_FLASHCON3_ErrorCode ErrorCode' in line 118
+2023-08-08 11:01:06,053 :: ERROR :: Parameter in header 'FIT_PFLASH_Number' is not matched with parameters in definition 'FIT_PFLASH_Number FIT_PFlash_Number' in line 153
+2023-08-08 11:01:06,054 :: ERROR :: Parameter in header 'uint8' is not matched with parameters in definition 'uint32 CoreID,uint8 Test_Case_ID' in line 181
+2023-08-08 11:01:06,054 :: ERROR :: Return type in header: 'bool' is not matched with return type in definition 'boolean' in line 181
+2023-08-08 11:01:06,054 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_RAMMonitoring\FIT_RAMMonitoring.c ..... 
+2023-08-08 11:01:06,057 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DSPRxSBEInjection(
+                                            const uint8 CPUIndex)' in 239 not found in the file.
+2023-08-08 11:01:06,057 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DSPRxDBEInjection(
+                                            const uint8 CPUIndex)' in 251 not found in the file.
+2023-08-08 11:01:06,058 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DSPRxMiscErrInjection(
+                                            const uint8 CPUIndex)' in 263 not found in the file.
+2023-08-08 11:01:06,058 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DSPRxAdrErrInjection (
+                                                const uint8 CPUIndex)' in 275 not found in the file.
+2023-08-08 11:01:06,058 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_PSPRxSBEInjection(
+                                            const uint8 CPUIndex)' in 287 not found in the file.
+2023-08-08 11:01:06,058 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_PSPRxDBEInjection(
+                                            const uint8 CPUIndex)' in 299 not found in the file.
+2023-08-08 11:01:06,059 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_PSPRxMiscErrInjection(
+                                            const uint8 CPUIndex)' in 311 not found in the file.
+2023-08-08 11:01:06,059 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_PSPRxAdrErrInjection (
+                                                const uint8 CPUIndex)' in 323 not found in the file.
+2023-08-08 11:01:06,059 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DLMUxSBEInjection(
+                                                const uint8 CPUIndex)' in 336 not found in the file.
+2023-08-08 11:01:06,059 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DLMUxDBEInjection(
+                                            const uint8 CPUIndex)' in 348 not found in the file.
+2023-08-08 11:01:06,059 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DLMUxMiscErrInjection(
+                                            const uint8 CPUIndex)' in 360 not found in the file.
+2023-08-08 11:01:06,060 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DLMUxAdrErrInjection (
+                                            const uint8 CPUIndex)' in 372 not found in the file.
+2023-08-08 11:01:06,060 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_PTAGxSBEInjection(
+                                            const uint8 CPUIndex)' in 384 not found in the file.
+2023-08-08 11:01:06,060 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_PTAGxDBEInjection(
+                                            const uint8 CPUIndex)' in 396 not found in the file.
+2023-08-08 11:01:06,061 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_PTAGxMiscErrInjection(
+                                                const uint8 CPUIndex)' in 408 not found in the file.
+2023-08-08 11:01:06,061 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_PTAGxAdrErrInjection(
+                                                const uint8 CPUIndex)' in 420 not found in the file.
+2023-08-08 11:01:06,061 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DTAGxSBEInjection(
+                                                const uint8 CPUIndex)' in 432 not found in the file.
+2023-08-08 11:01:06,061 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DTAGxDBEInjection(
+                                                const uint8 CPUIndex)' in 444 not found in the file.
+2023-08-08 11:01:06,062 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DTAGxMiscErrInjection(
+                                                const uint8 CPUIndex)' in 456 not found in the file.
+2023-08-08 11:01:06,062 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_DTAGxAdrErrInjection(
+                                                const uint8 CPUIndex)' in 469 not found in the file.
+2023-08-08 11:01:06,063 :: ERROR :: Function header for 'ten_FITRAM_ErrorStatus FITRAM_ClearErrInjection(void)' in 485 not found in the file.
+2023-08-08 11:01:06,063 :: ERROR :: Parameter in header 'CoreID,ATest_Case_ID_u8' is not matched with parameters in definition 'uint8 ATest_Case_ID_u8' in line 516
+2023-08-08 11:01:06,065 :: ERROR :: Parameter in header 'ATest_Case_ID_u8, AFaultType_u8' is not matched with parameters in definition 'uint8 ATest_Case_ID_u8, uint8 AFaultType_u8' in line 546
+2023-08-08 11:01:06,066 :: ERROR :: Parameter in header 'CoreID,ATest_Case_ID_u8' is not matched with parameters in definition 'uint32 ACoreID_u32,uint8 ATest_Case_ID_u8' in line 576
+2023-08-08 11:01:06,067 :: ERROR :: Function name in header 'SafeTestDrv_Safety_Apps_RAMMON(uint32 CoreID,uint8 ATest_Case_ID_u8)' is not matched with function name in definition 'FITRAM_InjectFault' in line 585
+2023-08-08 11:01:06,067 :: ERROR :: Parameter in header 'CoreID,ATest_Case_ID_u8' is not matched with parameters in definition 'uint8            ssh_u8,
+                                        ten_FITRAM_Fault fault_en' in line 585
+2023-08-08 11:01:06,067 :: ERROR :: Return type in header: 'boolean' is not matched with return type in definition 'ten_FITRAM_ErrorStatus' in line 585
+2023-08-08 11:01:06,069 :: ERROR :: Function name in header 'FITRAM_InjectFault()' is not matched with function name in definition 'fitram_InjectDataBitFaultDtag' in line 653
+2023-08-08 11:01:06,069 :: ERROR :: Parameter in header 'fault_en Type of fault injection: SBE, DBE, address, miscellaneous' is not matched with parameters in definition 'uint8             ssh_u8,
+                                                ten_FITRAM_Fault  fault_en' in line 653
+2023-08-08 11:01:06,069 :: ERROR :: Return type in header: 'ten_FITRAM_ErrorStatus' is not matched with return type in definition 'void' in line 653
+2023-08-08 11:01:06,072 :: ERROR :: Function name in header 'FITRAM_InjectFault()' is not matched with function name in definition 'fitram_InjectDataBitFault' in line 659
+2023-08-08 11:01:06,072 :: ERROR :: Parameter in header 'fault_en Type of fault injection: SBE, DBE, address, miscellaneous' is not matched with parameters in definition 'uint8             ssh_u8,
+                                            ten_FITRAM_Fault  fault_en' in line 659
+2023-08-08 11:01:06,072 :: ERROR :: Return type in header: 'ten_FITRAM_ErrorStatus' is not matched with return type in definition 'void' in line 659
+2023-08-08 11:01:06,073 :: ERROR :: Parameter in header 'ssh_u8 Traget RAM as defined in SSH instances (TC37x, MTU, chapter. 13.5, Table 57)' is not matched with parameters in definition 'uint8  ssh_u8' in line 902
+2023-08-08 11:01:06,074 :: ERROR :: Function name in header 'FITRAM_MiscellaneousFaultInjection()' is not matched with function name in definition 'fitram_InjectMiscellaneouisFault' in line 952
+2023-08-08 11:01:06,074 :: ERROR :: Parameter in header 'ssh_u8 Traget RAM as defined in SSH instances (TC37x, MTU, chapter. 13.5, Table 57)' is not matched with parameters in definition 'uint8   ssh_u8' in line 952
+2023-08-08 11:01:06,075 :: ERROR :: Parameter in header 'enable == TRUE, FALSE=disable=bypass' is not matched with parameters in definition 'uint8 enable' in line 978
+2023-08-08 11:01:06,075 :: ERROR :: 'BRIEF' section is empty in function header for 'void fitram_SetDataCache(
+                                    uint8 enable)' in line 978
+2023-08-08 11:01:06,076 :: ERROR :: Parameter in header 'enable == TRUE, FALSE=disable=bypass' is not matched with parameters in definition 'uint8 enable' in line 1000
+2023-08-08 11:01:06,076 :: ERROR :: 'BRIEF' section is empty in function header for 'void fitram_SetProgramCache(
+                                        uint8 enable)' in line 1000
+2023-08-08 11:01:06,077 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'void' in line 1021
+2023-08-08 11:01:06,077 :: ERROR :: Return type in header: 'SEICON stored password' is not matched with return type in definition 'uint32' in line 1021
+2023-08-08 11:01:06,078 :: ERROR :: Parameter in header 'mode_u8 enable or disable the test mode(NORMAL mode = disabled)' is not matched with parameters in definition 'uint8           ssh_u8,
+                                        ten_MtuTestMode mode_u8' in line 1038
+2023-08-08 11:01:06,079 :: ERROR :: Parameter in header 'ssh_u8 index of DTAG0,1 in the SSH tabnle' is not matched with parameters in definition 'uint8  ssh_u8' in line 1087
+2023-08-08 11:01:06,080 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'uint8  ssh_u8' in line 1132
+2023-08-08 11:01:06,080 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_RAMMonitoring\Cfg\FIT_RAMMonitoring_Cfg.c ..... 
+2023-08-08 11:01:06,083 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,083 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_REGM\cfg\FIT_REGM_Cfg.c ..... 
+2023-08-08 11:01:06,087 :: ERROR :: Function header for 'void REGM_Write_CPU_CPXE_0 (uint32 ACpuRegValue)' in 150 not found in the file.
+2023-08-08 11:01:06,087 :: ERROR :: Function header for 'void REGM_Write_CPU_CPXE_1 (uint32 ACpuRegValue)' in 151 not found in the file.
+2023-08-08 11:01:06,087 :: ERROR :: Function header for 'void REGM_Write_CPU_CPXE_2 (uint32 ACpuRegValue)' in 152 not found in the file.
+2023-08-08 11:01:06,087 :: ERROR :: Function header for 'void REGM_Write_CPU_CPXE_3 (uint32 ACpuRegValue)' in 153 not found in the file.
+2023-08-08 11:01:06,087 :: ERROR :: Function header for 'void REGM_Write_CPU_CPXE_4 (uint32 ACpuRegValue)' in 154 not found in the file.
+2023-08-08 11:01:06,088 :: ERROR :: Function header for 'void REGM_Write_CPU_CPXE_5 (uint32 ACpuRegValue)' in 155 not found in the file.
+2023-08-08 11:01:06,088 :: ERROR :: Function header for 'void REGM_Write_CPU_DPRE_0 (uint32 ACpuRegValue)' in 156 not found in the file.
+2023-08-08 11:01:06,088 :: ERROR :: Function header for 'void REGM_Write_CPU_DPRE_1 (uint32 ACpuRegValue)' in 157 not found in the file.
+2023-08-08 11:01:06,088 :: ERROR :: Function header for 'void REGM_Write_CPU_DPRE_2 (uint32 ACpuRegValue)' in 158 not found in the file.
+2023-08-08 11:01:06,088 :: ERROR :: Function header for 'void REGM_Write_CPU_DPRE_3 (uint32 ACpuRegValue)' in 159 not found in the file.
+2023-08-08 11:01:06,088 :: ERROR :: Function header for 'void REGM_Write_CPU_DPRE_4 (uint32 ACpuRegValue)' in 160 not found in the file.
+2023-08-08 11:01:06,088 :: ERROR :: Function header for 'void REGM_Write_CPU_DPRE_5 (uint32 ACpuRegValue)' in 161 not found in the file.
+2023-08-08 11:01:06,089 :: ERROR :: Function header for 'void REGM_Write_CPU_DPWE_0 (uint32 ACpuRegValue)' in 162 not found in the file.
+2023-08-08 11:01:06,089 :: ERROR :: Function header for 'void REGM_Write_CPU_DPWE_1 (uint32 ACpuRegValue)' in 163 not found in the file.
+2023-08-08 11:01:06,089 :: ERROR :: Function header for 'void REGM_Write_CPU_DPWE_2 (uint32 ACpuRegValue)' in 164 not found in the file.
+2023-08-08 11:01:06,089 :: ERROR :: Function header for 'void REGM_Write_CPU_DPWE_3 (uint32 ACpuRegValue)' in 165 not found in the file.
+2023-08-08 11:01:06,089 :: ERROR :: Function header for 'void REGM_Write_CPU_DPWE_4 (uint32 ACpuRegValue)' in 166 not found in the file.
+2023-08-08 11:01:06,089 :: ERROR :: Function header for 'void REGM_Write_CPU_DPWE_5 (uint32 ACpuRegValue)' in 167 not found in the file.
+2023-08-08 11:01:06,089 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR9_U (uint32 ACpuRegValue)' in 168 not found in the file.
+2023-08-08 11:01:06,090 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR1_L (uint32 ACpuRegValue)' in 169 not found in the file.
+2023-08-08 11:01:06,090 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR1_U  (uint32 ACpuRegValue)' in 170 not found in the file.
+2023-08-08 11:01:06,090 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR2_L  (uint32 ACpuRegValue)' in 171 not found in the file.
+2023-08-08 11:01:06,090 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR2_U  (uint32 ACpuRegValue)' in 172 not found in the file.
+2023-08-08 11:01:06,090 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR3_L  (uint32 ACpuRegValue)' in 173 not found in the file.
+2023-08-08 11:01:06,090 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR3_U  (uint32 ACpuRegValue)' in 174 not found in the file.
+2023-08-08 11:01:06,090 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR4_L  (uint32 ACpuRegValue)' in 175 not found in the file.
+2023-08-08 11:01:06,091 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR4_U  (uint32 ACpuRegValue)' in 176 not found in the file.
+2023-08-08 11:01:06,091 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR5_L  (uint32 ACpuRegValue)' in 177 not found in the file.
+2023-08-08 11:01:06,091 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR5_U  (uint32 ACpuRegValue)' in 178 not found in the file.
+2023-08-08 11:01:06,091 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR6_L  (uint32 ACpuRegValue)' in 179 not found in the file.
+2023-08-08 11:01:06,091 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR6_U  (uint32 ACpuRegValue)' in 180 not found in the file.
+2023-08-08 11:01:06,091 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR7_L  (uint32 ACpuRegValue)' in 181 not found in the file.
+2023-08-08 11:01:06,091 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR7_U  (uint32 ACpuRegValue)' in 182 not found in the file.
+2023-08-08 11:01:06,092 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR8_L  (uint32 ACpuRegValue)' in 183 not found in the file.
+2023-08-08 11:01:06,092 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR8_U  (uint32 ACpuRegValue)' in 184 not found in the file.
+2023-08-08 11:01:06,092 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR9_L  (uint32 ACpuRegValue)' in 185 not found in the file.
+2023-08-08 11:01:06,092 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR10_L (uint32 ACpuRegValue)' in 186 not found in the file.
+2023-08-08 11:01:06,092 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR10_U (uint32 ACpuRegValue)' in 187 not found in the file.
+2023-08-08 11:01:06,092 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR11_L (uint32 ACpuRegValue)' in 188 not found in the file.
+2023-08-08 11:01:06,092 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR11_U (uint32 ACpuRegValue)' in 189 not found in the file.
+2023-08-08 11:01:06,093 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR12_L (uint32 ACpuRegValue)' in 190 not found in the file.
+2023-08-08 11:01:06,093 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR12_U (uint32 ACpuRegValue)' in 191 not found in the file.
+2023-08-08 11:01:06,093 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR13_L (uint32 ACpuRegValue)' in 192 not found in the file.
+2023-08-08 11:01:06,093 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR13_U (uint32 ACpuRegValue)' in 193 not found in the file.
+2023-08-08 11:01:06,093 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR14_L (uint32 ACpuRegValue)' in 194 not found in the file.
+2023-08-08 11:01:06,093 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR14_U (uint32 ACpuRegValue)' in 195 not found in the file.
+2023-08-08 11:01:06,093 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR15_L (uint32 ACpuRegValue)' in 196 not found in the file.
+2023-08-08 11:01:06,094 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR15_U (uint32 ACpuRegValue)' in 197 not found in the file.
+2023-08-08 11:01:06,094 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR16_L (uint32 ACpuRegValue)' in 198 not found in the file.
+2023-08-08 11:01:06,094 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR16_U (uint32 ACpuRegValue)' in 199 not found in the file.
+2023-08-08 11:01:06,094 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR17_L (uint32 ACpuRegValue)' in 200 not found in the file.
+2023-08-08 11:01:06,094 :: ERROR :: Function header for 'void REGM_Write_CPU_DPR17_U (uint32 ACpuRegValue)' in 201 not found in the file.
+2023-08-08 11:01:06,094 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR0_L  (uint32 ACpuRegValue)' in 202 not found in the file.
+2023-08-08 11:01:06,095 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR0_U (uint32 ACpuRegValue)' in 203 not found in the file.
+2023-08-08 11:01:06,095 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR1_L (uint32 ACpuRegValue)' in 204 not found in the file.
+2023-08-08 11:01:06,095 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR1_U (uint32 ACpuRegValue)' in 205 not found in the file.
+2023-08-08 11:01:06,095 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR2_L (uint32 ACpuRegValue)' in 206 not found in the file.
+2023-08-08 11:01:06,095 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR2_U (uint32 ACpuRegValue)' in 207 not found in the file.
+2023-08-08 11:01:06,095 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR3_L (uint32 ACpuRegValue)' in 208 not found in the file.
+2023-08-08 11:01:06,096 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR3_U (uint32 ACpuRegValue)' in 209 not found in the file.
+2023-08-08 11:01:06,096 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR4_L (uint32 ACpuRegValue)' in 210 not found in the file.
+2023-08-08 11:01:06,096 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR4_U (uint32 ACpuRegValue)' in 211 not found in the file.
+2023-08-08 11:01:06,096 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR5_L (uint32 ACpuRegValue)' in 212 not found in the file.
+2023-08-08 11:01:06,096 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR5_U (uint32 ACpuRegValue)' in 213 not found in the file.
+2023-08-08 11:01:06,097 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR6_L (uint32 ACpuRegValue)' in 214 not found in the file.
+2023-08-08 11:01:06,097 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR6_U (uint32 ACpuRegValue)' in 215 not found in the file.
+2023-08-08 11:01:06,097 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR7_L (uint32 ACpuRegValue)' in 216 not found in the file.
+2023-08-08 11:01:06,097 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR7_U (uint32 ACpuRegValue)' in 217 not found in the file.
+2023-08-08 11:01:06,097 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR8_L (uint32 ACpuRegValue)' in 218 not found in the file.
+2023-08-08 11:01:06,097 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR8_U (uint32 ACpuRegValue)' in 219 not found in the file.
+2023-08-08 11:01:06,098 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR9_L (uint32 ACpuRegValue)' in 220 not found in the file.
+2023-08-08 11:01:06,098 :: ERROR :: Function header for 'void REGM_Write_CPU_CPR9_U (uint32 ACpuRegValue)' in 221 not found in the file.
+2023-08-08 11:01:06,098 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_REGM\src\FIT_REGM.c ..... 
+2023-08-08 11:01:06,103 :: ERROR :: Parameter in header 'volatile Ifx_UReg_32Bit AAddr_u32_p, uint32 AValue_u32' is not matched with parameters in definition 'volatile Ifx_UReg_32Bit* AAddr_u32_p,
+                                                  uint32 AValue_u32' in line 126
+2023-08-08 11:01:06,104 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'const uint32 AValue_u32' in line 152
+2023-08-08 11:01:06,104 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'uint16' in line 152
+2023-08-08 11:01:06,105 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'const uint32 ACpuIndex_u32,
+                                         const uint32 AWdtCpuCon0Value_u32' in line 179
+2023-08-08 11:01:06,106 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'uint32' in line 179
+2023-08-08 11:01:06,107 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'const uint32 ACpuIndex_u32,
+                                      const uint32 AWdtCpuCon0Value_u32' in line 226
+2023-08-08 11:01:06,107 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'uint32' in line 226
+2023-08-08 11:01:06,108 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'volatile Ifx_UReg_32Bit* AAddr_u32_p, uint32 AFaultValue_u32' in line 277
+2023-08-08 11:01:06,109 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'uint8 ARegisterNo_u8' in line 337
+2023-08-08 11:01:06,110 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'uint8 ARegisterNo_u8' in line 391
+2023-08-08 11:01:06,111 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'uint8 ARegisterNo_u8' in line 426
+2023-08-08 11:01:06,112 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'uint8 ARegisterNo_u8' in line 460
+2023-08-08 11:01:06,113 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'uint8 ARegisterNo_u8' in line 494
+2023-08-08 11:01:06,114 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'uint8 ARegisterNo_u8' in line 532
+2023-08-08 11:01:06,116 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'uint8 ARegisterNo_u8' in line 596
+2023-08-08 11:01:06,117 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'uint8 ARegisterNo_u8' in line 646
+2023-08-08 11:01:06,118 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'uint8 ARegisterNo_u8' in line 693
+2023-08-08 11:01:06,119 :: ERROR :: Parameter in header 'ARegisterNo_u8' is not matched with parameters in definition 'uint32 CoreID,uint8 ARegisterNo_u8' in line 727
+2023-08-08 11:01:06,120 :: ERROR :: Function name in header 'FIT_REGM_GetPheriphal_Index(uint8 Test_Case_ID)' is not matched with function name in definition 'FIT_REGM_GetPeripheral_Index' in line 756
+2023-08-08 11:01:06,120 :: ERROR :: Parameter in header 'Test_Case_ID' is not matched with parameters in definition 'uint8 Test_Case_ID' in line 756
+2023-08-08 11:01:06,120 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'uint8' in line 756
+2023-08-08 11:01:06,121 :: ERROR :: Function name in header 'FIT_REGM_GetPheriphal_Index_Core1(uint8 Test_Case_ID)' is not matched with function name in definition 'FIT_REGM_GetPeripheral_Index_Core1' in line 790
+2023-08-08 11:01:06,121 :: ERROR :: Parameter in header 'Test_Case_ID' is not matched with parameters in definition 'uint8 Test_Case_ID' in line 790
+2023-08-08 11:01:06,121 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'uint8' in line 790
+2023-08-08 11:01:06,122 :: ERROR :: Parameter in header 'Test_Case_ID' is not matched with parameters in definition 'uint8 PeripheralIndex,uint8 Test_Case_ID' in line 822
+2023-08-08 11:01:06,122 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'uint8' in line 822
+2023-08-08 11:01:06,123 :: ERROR :: Parameter in header 'Test_Case_ID' is not matched with parameters in definition 'uint8 PeripheralIndex,uint8 Test_Case_ID' in line 851
+2023-08-08 11:01:06,123 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'uint8' in line 851
+2023-08-08 11:01:06,124 :: ERROR :: Parameter in header 'uint8' is not matched with parameters in definition 'uint32 CoreID,uint8 Test_Case_ID' in line 881
+2023-08-08 11:01:06,124 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'boolean' in line 881
+2023-08-08 11:01:06,125 :: ERROR :: Parameter in header 'uint8' is not matched with parameters in definition 'uint32 CoreID,uint8 Test_Case_ID' in line 924
+2023-08-08 11:01:06,125 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'boolean' in line 924
+2023-08-08 11:01:06,126 :: ERROR :: Function name in header 'SafeTestDrv_Safety_Apps_Core1_REGM(uint32 CoreID, uint8 Test_Case_ID)' is not matched with function name in definition 'FIT_REGM_InjectFault' in line 935
+2023-08-08 11:01:06,126 :: ERROR :: Parameter in header 'uint8' is not matched with parameters in definition 'uint32 CoreID,uint8 AFIT_REGM_PeripheralNo_u8,
+                                                 uint8 AFIT_REGM_RegisterNo_u8' in line 935
+2023-08-08 11:01:06,126 :: ERROR :: Return type in header: 'void' is not matched with return type in definition 'uint8' in line 935
+2023-08-08 11:01:06,128 :: ERROR :: Parameter in header 'uint8 AFIT_REGM_PeripheralNo_u8,uint8 AFIT_REGM_RegisterNo_u8' is not matched with parameters in definition 'uint32 CoreID,uint8 AFIT_REGM_PeripheralNo_u8,
+                                                 uint8 AFIT_REGM_RegisterNo_u8' in line 1064
+2023-08-08 11:01:06,128 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_Wdg\FIT_Wdg.c ..... 
+2023-08-08 11:01:06,132 :: ERROR :: Function header for 'bool FIT_WDG_AlivesupervisionMaxCountExeed(
+                                                   FIT_WDG_TestcaseID testCaseId)' in 113 not found in the file.
+2023-08-08 11:01:06,132 :: ERROR :: Function header for 'void FIT_WDG_ServcingFailTests(void)' in 114 not found in the file.
+2023-08-08 11:01:06,132 :: ERROR :: Function header for 'bool FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' in 115 not found in the file.
+2023-08-08 11:01:06,132 :: ERROR :: Function header for 'uint16 FIT_WDG_DecryptPw(const uint32 Value)' in 116 not found in the file.
+2023-08-08 11:01:06,132 :: ERROR :: Function header for 'uint32  FIT_WDG_CpuPwSequence(const uint32 CpuIndex,
+                                         const uint32 WdtCpuCon0Value)' in 119 not found in the file.
+2023-08-08 11:01:06,139 :: ERROR :: Function name in header 'FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' is not matched with function name in definition 'FIT_WDG_CpuRelValue' in line 352
+2023-08-08 11:01:06,139 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'const uint32 CpuIndex,
+                                      const uint32 WdtCpuCon0Value' in line 352
+2023-08-08 11:01:06,139 :: ERROR :: Return type in header: '' is not matched with return type in definition 'uint32' in line 352
+2023-08-08 11:01:06,147 :: ERROR :: Function name in header 'FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' is not matched with function name in definition 'FIT_WDG_CalculateTimerReloadVal' in line 387
+2023-08-08 11:01:06,148 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'const uint32 CoreId,
+                                     const uint32 TimerRelValAtReset,
+                                     const boolean SetResetProtection' in line 387
+2023-08-08 11:01:06,148 :: ERROR :: Return type in header: '' is not matched with return type in definition 'uint32' in line 387
+2023-08-08 11:01:06,158 :: ERROR :: Function name in header 'FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' is not matched with function name in definition 'FIT_WDG_WriteCpuEndInitProtRegInvalidPassowrd' in line 496
+2023-08-08 11:01:06,158 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'volatile void*
+                   const RegAddress, const uint32 DataValue, uint32 CoreId' in line 496
+2023-08-08 11:01:06,158 :: ERROR :: Return type in header: '' is not matched with return type in definition 'void' in line 496
+2023-08-08 11:01:06,171 :: ERROR :: Function name in header 'FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' is not matched with function name in definition 'FIT_WDG_WriteCpuEndInitProtReg' in line 535
+2023-08-08 11:01:06,171 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'volatile void* const RegAddress,
+                                  const uint32 DataValue, uint32 CoreId' in line 535
+2023-08-08 11:01:06,172 :: ERROR :: Return type in header: '' is not matched with return type in definition 'void' in line 535
+2023-08-08 11:01:06,188 :: ERROR :: Function name in header 'FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' is not matched with function name in definition 'FIT_WDG_DelayResetTickCalibration' in line 574
+2023-08-08 11:01:06,188 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'const uint8 ApiId' in line 574
+2023-08-08 11:01:06,188 :: ERROR :: Return type in header: '' is not matched with return type in definition 'uint32' in line 574
+2023-08-08 11:01:06,188 :: ERROR :: 'BRIEF' section is empty in function header for 'uint32 FIT_WDG_DelayResetTickCalibration(const uint8 ApiId)' in line 574
+2023-08-08 11:01:06,207 :: ERROR :: Function name in header 'FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' is not matched with function name in definition 'FIT_WDG_GetSpinlocklocal' in line 682
+2023-08-08 11:01:06,207 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'volatile uint32 *const LockAddress, /* PRQA S 3673 */ /*QAC 16*//* The object is not modified */
+                              const uint32 Timeout, const uint8 ApiId' in line 682
+2023-08-08 11:01:06,207 :: ERROR :: Return type in header: '' is not matched with return type in definition 'void' in line 682
+2023-08-08 11:01:06,207 :: ERROR :: 'BRIEF' section is empty in function header for 'void FIT_WDG_GetSpinlocklocal(volatile uint32 *const LockAddress, /* PRQA S 3673 */ /*QAC 16*//* The object is not modified */
+                              const uint32 Timeout, const uint8 ApiId)' in line 682
+2023-08-08 11:01:06,231 :: ERROR :: Function name in header 'FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' is not matched with function name in definition 'FIT_WDG_UpdateSafetyEndInit' in line 777
+2023-08-08 11:01:06,231 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'const boolean SetResetProtection,
+                                        uint32 givenPassword' in line 777
+2023-08-08 11:01:06,231 :: ERROR :: Return type in header: '' is not matched with return type in definition 'uint32' in line 777
+2023-08-08 11:01:06,231 :: ERROR :: 'BRIEF' section is empty in function header for 'uint32 FIT_WDG_UpdateSafetyEndInit(
+                                        const boolean SetResetProtection,
+                                        uint32 givenPassword)' in line 777
+2023-08-08 11:01:06,258 :: ERROR :: Function name in header 'FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' is not matched with function name in definition 'FIT_WDG_WriteSafetyEndInitProtectionInvalidPassowrd' in line 843
+2023-08-08 11:01:06,258 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'volatile void*
+                                                const RegAddress,
+                                                const uint32 DataValue,
+                                                const uint32 Mask,
+                                                const uint8  Accesstype,
+                                                 const uint8 ApiId' in line 843
+2023-08-08 11:01:06,258 :: ERROR :: Return type in header: '' is not matched with return type in definition 'void' in line 843
+2023-08-08 11:01:06,258 :: ERROR :: 'BRIEF' section is empty in function header for 'void FIT_WDG_WriteSafetyEndInitProtectionInvalidPassowrd(volatile void*
+                                                const RegAddress,
+                                                const uint32 DataValue,
+                                                const uint32 Mask,
+                                                const uint8  Accesstype,
+                                                 const uint8 ApiId)' in line 843
+2023-08-08 11:01:06,287 :: ERROR :: Function name in header 'FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' is not matched with function name in definition 'FIT_WDG_WriteSafetyEndInitProtection' in line 929
+2023-08-08 11:01:06,287 :: ERROR :: Parameter in header '' is not matched with parameters in definition 'volatile void* const RegAddress,
+                                                const uint32 DataValue,
+                                                const uint32 Mask,
+                                                const uint8  Accesstype,
+                                                 const uint8 ApiId' in line 929
+2023-08-08 11:01:06,287 :: ERROR :: Return type in header: '' is not matched with return type in definition 'void' in line 929
+2023-08-08 11:01:06,287 :: ERROR :: 'BRIEF' section is empty in function header for 'void FIT_WDG_WriteSafetyEndInitProtection(volatile void* const RegAddress,
+                                                const uint32 DataValue,
+                                                const uint32 Mask,
+                                                const uint8  Accesstype,
+                                                 const uint8 ApiId)' in line 929
+2023-08-08 11:01:06,319 :: ERROR :: Function name in header 'FIT_WDG_ENDINITLockedTests(uint8 SM_WDG_InstanceId)' is not matched with function name in definition 'FIT_WDG_InvalidPasswordAccess' in line 1015
+2023-08-08 11:01:06,319 :: ERROR :: Return type in header: '' is not matched with return type in definition 'bool' in line 1015
+2023-08-08 11:01:06,319 :: ERROR :: 'BRIEF' section is empty in function header for 'bool FIT_WDG_InvalidPasswordAccess(uint8 SM_WDG_InstanceId)' in line 1015
+2023-08-08 11:01:06,322 :: ERROR :: Return type in header: '' is not matched with return type in definition 'bool' in line 1073
+2023-08-08 11:01:06,325 :: ERROR :: Function name in header 'FIT_WDG_coreidCheck()' is not matched with function name in definition 'FIT_WDG_invoke_test' in line 1131
+2023-08-08 11:01:06,325 :: ERROR :: Parameter in header 'uint8, FIT_WDG_TestcaseID' is not matched with parameters in definition 'uint8 coreId,
+                                                 FIT_WDG_TestcaseID testCaseId' in line 1131
+2023-08-08 11:01:06,325 :: ERROR :: Return type in header: '' is not matched with return type in definition 'bool' in line 1131
+2023-08-08 11:01:06,328 :: ERROR :: Parameter in header 'uint8, uint8' is not matched with parameters in definition 'uint8 coreId, uint8 testCaseId' in line 1198
+2023-08-08 11:01:06,330 :: ERROR :: Parameter in header 'uint8, uint8' is not matched with parameters in definition 'uint8 coreId, uint8 testCaseId' in line 1230
+2023-08-08 11:01:06,331 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.FIT_Manager\FIT_Wdg\cfg\FIT_Wdg_Cfg.c ..... 
+2023-08-08 11:01:06,333 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,333 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.SafetyManager\AuSM.c ..... 
+2023-08-08 11:01:06,338 :: ERROR :: Function name in header 'AuSM_PreInit()' is not matched with function name in definition 'AuSM_Init' in line 172
+2023-08-08 11:01:06,342 :: ERROR :: Parameter in header 'uint32  - aAlramGroupInitStatus_u32' is not matched with parameters in definition 'uint32 * aAlramGroupInitStatus_u32' in line 285
+2023-08-08 11:01:06,343 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 312
+2023-08-08 11:01:06,343 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 312
+2023-08-08 11:01:06,344 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 338
+2023-08-08 11:01:06,344 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 338
+2023-08-08 11:01:06,345 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 364
+2023-08-08 11:01:06,345 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 364
+2023-08-08 11:01:06,346 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 390
+2023-08-08 11:01:06,346 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 390
+2023-08-08 11:01:06,347 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 410
+2023-08-08 11:01:06,347 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 410
+2023-08-08 11:01:06,348 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 458
+2023-08-08 11:01:06,348 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 458
+2023-08-08 11:01:06,349 :: ERROR :: Parameter in header 'uint8 - RT Instance' is not matched with parameters in definition 'uint8 aRTInstanceNum_u8' in line 477
+2023-08-08 11:01:06,349 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 477
+2023-08-08 11:01:06,350 :: ERROR :: Parameter in header 'uint8 - aAGCIndex_u8; Alarm group index' is not matched with parameters in definition 'uint8 aAGCIndex_u8' in line 496
+2023-08-08 11:01:06,350 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 496
+2023-08-08 11:01:06,352 :: ERROR :: Parameter in header 'uint8 - AGC Number' is not matched with parameters in definition 'uint8 AAGCNumber_u8' in line 543
+2023-08-08 11:01:06,352 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 543
+2023-08-08 11:01:06,353 :: ERROR :: Function name in header 'AuSM_SMU_TriggerAlarm()' is not matched with function name in definition 'AuSM_SMU_SendCommand' in line 545
+2023-08-08 11:01:06,353 :: ERROR :: Parameter in header 'uint8 - AGC Number' is not matched with parameters in definition 'uint8 Acmdvalue_u8, uint8 Aargvalue_u8' in line 545
+2023-08-08 11:01:06,353 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 545
+2023-08-08 11:01:06,354 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 606
+2023-08-08 11:01:06,354 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 606
+2023-08-08 11:01:06,356 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.SafetyManager\AuSM_Irq.c ..... 
+2023-08-08 11:01:06,357 :: ERROR :: Function header for 'void Os_Isr_Src0SmuHandlerInt_0(void)' in 115 not found in the file.
+2023-08-08 11:01:06,357 :: ERROR :: Function header for 'void Os_Isr_SrcSmuHandlerInt_1(void)' in 135 not found in the file.
+2023-08-08 11:01:06,358 :: ERROR :: Function header for 'void Os_Isr_SrcSmuHandlerInt_2(void)' in 155 not found in the file.
+2023-08-08 11:01:06,358 :: ERROR :: Function header for 'void Os_SMUTrapHandlerFunction(void)' in 174 not found in the file.
+2023-08-08 11:01:06,358 :: ERROR :: Function header for 'void AuSM_SmuInterruptHandler(uint8 Isrindex)' in 178 not found in the file.
+2023-08-08 11:01:06,359 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.SafetyManager\AuSM_UserCallout.c ..... 
+2023-08-08 11:01:06,361 :: ERROR :: Parameter in header '[in] -' is not matched with parameters in definition 'void' in line 112
+2023-08-08 11:01:06,361 :: ERROR :: Return type in header: '-' is not matched with return type in definition 'void' in line 112
+2023-08-08 11:01:06,361 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\Aurix.SafetyManager\Cfg\AuSM_Cfg.c ..... 
+2023-08-08 11:01:06,364 :: ERROR :: Function header for 'uint8 Smuhandler_GetNumberofAlarm(void)' in 281 not found in the file.
+2023-08-08 11:01:06,364 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\CDD.PeripheralProtection\cfg\PeriProt_cfg.c ..... 
+2023-08-08 11:01:06,366 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,366 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\CDD.PeripheralProtection\src\PeriProt.c ..... 
+2023-08-08 11:01:06,370 :: INFO :: All function headers are valid and complete.
+2023-08-08 11:01:06,370 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\CDD.RegisterMonitor\callout\REGM_UserCallout.c ..... 
+2023-08-08 11:01:06,372 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,372 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\CDD.RegisterMonitor\cfg\REGM_Cfg.c ..... 
+2023-08-08 11:01:06,377 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPXE_0 (void)' in 431 not found in the file.
+2023-08-08 11:01:06,377 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPXE_1 (void)' in 432 not found in the file.
+2023-08-08 11:01:06,377 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPXE_2 (void)' in 433 not found in the file.
+2023-08-08 11:01:06,377 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPXE_3 (void)' in 434 not found in the file.
+2023-08-08 11:01:06,378 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPXE_4 (void)' in 435 not found in the file.
+2023-08-08 11:01:06,378 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPXE_5 (void)' in 436 not found in the file.
+2023-08-08 11:01:06,378 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPRE_0 (void)' in 437 not found in the file.
+2023-08-08 11:01:06,379 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPRE_1 (void)' in 438 not found in the file.
+2023-08-08 11:01:06,379 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPRE_2 (void)' in 439 not found in the file.
+2023-08-08 11:01:06,379 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPRE_3 (void)' in 440 not found in the file.
+2023-08-08 11:01:06,380 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPRE_4 (void)' in 441 not found in the file.
+2023-08-08 11:01:06,380 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPRE_5 (void)' in 442 not found in the file.
+2023-08-08 11:01:06,380 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPWE_0 (void)' in 443 not found in the file.
+2023-08-08 11:01:06,380 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPWE_1 (void)' in 444 not found in the file.
+2023-08-08 11:01:06,381 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPWE_2 (void)' in 445 not found in the file.
+2023-08-08 11:01:06,381 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPWE_3 (void)' in 446 not found in the file.
+2023-08-08 11:01:06,381 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPWE_4 (void)' in 447 not found in the file.
+2023-08-08 11:01:06,381 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPWE_5 (void)' in 448 not found in the file.
+2023-08-08 11:01:06,382 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR1_L (void)' in 450 not found in the file.
+2023-08-08 11:01:06,382 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR1_U (void)' in 451 not found in the file.
+2023-08-08 11:01:06,382 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR2_L (void)' in 452 not found in the file.
+2023-08-08 11:01:06,383 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR2_U (void)' in 453 not found in the file.
+2023-08-08 11:01:06,383 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR3_L (void)' in 454 not found in the file.
+2023-08-08 11:01:06,383 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR3_U (void)' in 455 not found in the file.
+2023-08-08 11:01:06,384 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR4_L (void)' in 456 not found in the file.
+2023-08-08 11:01:06,384 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR4_U (void)' in 457 not found in the file.
+2023-08-08 11:01:06,384 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR5_L (void)' in 458 not found in the file.
+2023-08-08 11:01:06,384 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR5_U (void)' in 459 not found in the file.
+2023-08-08 11:01:06,385 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR6_L (void)' in 460 not found in the file.
+2023-08-08 11:01:06,385 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR6_U (void)' in 461 not found in the file.
+2023-08-08 11:01:06,385 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR7_L (void)' in 462 not found in the file.
+2023-08-08 11:01:06,385 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR7_U (void)' in 463 not found in the file.
+2023-08-08 11:01:06,386 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR8_L (void)' in 464 not found in the file.
+2023-08-08 11:01:06,386 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR8_U (void)' in 465 not found in the file.
+2023-08-08 11:01:06,386 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR9_L (void)' in 466 not found in the file.
+2023-08-08 11:01:06,387 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR9_U (void)' in 467 not found in the file.
+2023-08-08 11:01:06,387 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR10_L (void)' in 468 not found in the file.
+2023-08-08 11:01:06,387 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR10_U (void)' in 469 not found in the file.
+2023-08-08 11:01:06,388 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR11_L (void)' in 470 not found in the file.
+2023-08-08 11:01:06,388 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR11_U (void)' in 471 not found in the file.
+2023-08-08 11:01:06,388 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR12_L (void)' in 472 not found in the file.
+2023-08-08 11:01:06,388 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR12_U (void)' in 473 not found in the file.
+2023-08-08 11:01:06,389 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR13_L (void)' in 474 not found in the file.
+2023-08-08 11:01:06,389 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR13_U (void)' in 475 not found in the file.
+2023-08-08 11:01:06,389 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR14_L (void)' in 476 not found in the file.
+2023-08-08 11:01:06,390 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR14_U (void)' in 477 not found in the file.
+2023-08-08 11:01:06,390 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR15_L (void)' in 478 not found in the file.
+2023-08-08 11:01:06,390 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR15_U (void)' in 479 not found in the file.
+2023-08-08 11:01:06,390 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR16_L (void)' in 480 not found in the file.
+2023-08-08 11:01:06,391 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR16_U (void)' in 481 not found in the file.
+2023-08-08 11:01:06,391 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR17_L (void)' in 482 not found in the file.
+2023-08-08 11:01:06,391 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DPR17_U (void)' in 483 not found in the file.
+2023-08-08 11:01:06,392 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR0_L  (void)' in 484 not found in the file.
+2023-08-08 11:01:06,392 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR0_U (void)' in 485 not found in the file.
+2023-08-08 11:01:06,392 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR1_L  (void)' in 486 not found in the file.
+2023-08-08 11:01:06,393 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR1_U (void)' in 487 not found in the file.
+2023-08-08 11:01:06,393 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR2_L  (void)' in 488 not found in the file.
+2023-08-08 11:01:06,393 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR2_U (void)' in 489 not found in the file.
+2023-08-08 11:01:06,393 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR3_L  (void)' in 490 not found in the file.
+2023-08-08 11:01:06,394 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR3_U (void)' in 491 not found in the file.
+2023-08-08 11:01:06,394 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR4_L  (void)' in 492 not found in the file.
+2023-08-08 11:01:06,394 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR4_U (void)' in 493 not found in the file.
+2023-08-08 11:01:06,395 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR5_L  (void)' in 494 not found in the file.
+2023-08-08 11:01:06,395 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR5_U (void)' in 495 not found in the file.
+2023-08-08 11:01:06,395 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR6_L  (void)' in 496 not found in the file.
+2023-08-08 11:01:06,396 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR6_U (void)' in 497 not found in the file.
+2023-08-08 11:01:06,396 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR7_L  (void)' in 498 not found in the file.
+2023-08-08 11:01:06,396 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR7_U (void)' in 499 not found in the file.
+2023-08-08 11:01:06,397 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR8_L  (void)' in 500 not found in the file.
+2023-08-08 11:01:06,397 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR8_U (void)' in 501 not found in the file.
+2023-08-08 11:01:06,397 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR9_L  (void)' in 502 not found in the file.
+2023-08-08 11:01:06,398 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_CPR9_U (void)' in 503 not found in the file.
+2023-08-08 11:01:06,398 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_BTV (void)' in 504 not found in the file.
+2023-08-08 11:01:06,398 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_BIV (void)' in 505 not found in the file.
+2023-08-08 11:01:06,399 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_ISP (void)' in 506 not found in the file.
+2023-08-08 11:01:06,399 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_PMA0 (void)' in 507 not found in the file.
+2023-08-08 11:01:06,399 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_PMA1 (void)' in 508 not found in the file.
+2023-08-08 11:01:06,400 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_PMA2 (void)' in 509 not found in the file.
+2023-08-08 11:01:06,400 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_PCON0 (void)' in 510 not found in the file.
+2023-08-08 11:01:06,400 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_DCON0 (void)' in 511 not found in the file.
+2023-08-08 11:01:06,400 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_SEGEN (void)' in 512 not found in the file.
+2023-08-08 11:01:06,401 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_SMACON (void)' in 513 not found in the file.
+2023-08-08 11:01:06,401 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_SYSCON (void)' in 514 not found in the file.
+2023-08-08 11:01:06,401 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_COMPAT (void)' in 515 not found in the file.
+2023-08-08 11:01:06,402 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_TPS_EXTIM_ENTRY_LVAL (void)' in 516 not found in the file.
+2023-08-08 11:01:06,402 :: ERROR :: Function header for 'uint32 REGM_Read_CPU_TPS_EXTIM_EXIT_LVAL (void)' in 517 not found in the file.
+2023-08-08 11:01:06,402 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\CDD.RegisterMonitor\src\REGM.c ..... 
+2023-08-08 11:01:06,407 :: ERROR :: Parameter in header 'uint32 ACoreId_u8, uint8 ARegister_u8' is not matched with parameters in definition 'uint8 ACPUIndex_u8,
+                                                       uint8 ARegister_u8' in line 117
+2023-08-08 11:01:06,408 :: ERROR :: Parameter in header 'uint32 ACoreId_u8, uint8 ARegister_u8' is not matched with parameters in definition 'uint8 ACPUIndex_u8,
+                                                      uint8 ARegister_u8' in line 144
+2023-08-08 11:01:06,408 :: ERROR :: Parameter in header 'ACPUIndex_u8' is not matched with parameters in definition 'uint32 ACPUIndex_u8' in line 167
+2023-08-08 11:01:06,409 :: ERROR :: Parameter in header 'uint8 APeripheral_u8, uint8 ARegister_u8' is not matched with parameters in definition 'uint8 APeripheral_u8,
+                                                       uint8 ARegister_u8' in line 196
+2023-08-08 11:01:06,410 :: ERROR :: Parameter in header 'uint8 APeripheral_u8, uint8 ARegister_u8' is not matched with parameters in definition 'uint8 APeripheral_u8,
+                                                      uint8 ARegister_u8' in line 220
+2023-08-08 11:01:06,412 :: ERROR :: Return type in header: 'uint8' is not matched with return type in definition 'bool' in line 262
+2023-08-08 11:01:06,413 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 281
+2023-08-08 11:01:06,414 :: ERROR :: Parameter in header 'uint8 AErrPeripheral_u8, uint8 AErrRegister_u8, uint32 AActual_Value_u32' is not matched with parameters in definition 'uint8 AErrPeripheral_u8,uint8 AErrRegister_u8,
+                             uint32 AActual_Value_u32' in line 341
+2023-08-08 11:01:06,416 :: ERROR :: Parameter in header 'uint8 APeripheral_u8, uint8 ANoOfRegisters_u32' is not matched with parameters in definition 'uint8 APeripheral_u8, uint32 ANoOfRegisters_u32' in line 388
+2023-08-08 11:01:06,420 :: ERROR :: Function name in header 'REGM_CheckForFault_Registers_u16(void)' is not matched with function name in definition 'REGM_CheckForFault_u16Registers' in line 541
+2023-08-08 11:01:06,421 :: ERROR :: Parameter in header 'ACoreId_u8' is not matched with parameters in definition 'uint8 ACoreId_u8' in line 608
+2023-08-08 11:01:06,423 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\EcuAL.UARTBufferHandler\UARTBufferHandler.c ..... 
+2023-08-08 11:01:06,425 :: ERROR :: Function header for 'void UARTBufferHandler_InitializeReadPointer(void)' in 83 not found in the file.
+2023-08-08 11:01:06,425 :: ERROR :: Return type in header: 's void' is not matched with return type in definition 'Std_ReturnType' in line 105
+2023-08-08 11:01:06,426 :: ERROR :: Function name in header 'UARTBufferHandler_Init' is not matched with function name in definition 'UARTBufferHandler_initializeBuffers' in line 130
+2023-08-08 11:01:06,426 :: ERROR :: Parameter in header 'void' is not matched with parameters in definition 'UARTBufferHandlerType *self, const uint8 *buffer, uint16 SizeOfBuffer' in line 130
+2023-08-08 11:01:06,426 :: ERROR :: Return type in header: 's en_result_t - success' is not matched with return type in definition 'void' in line 130
+2023-08-08 11:01:06,427 :: ERROR :: Function name in header '' is not matched with function name in definition 'UARTBufferHandler_Main' in line 190
+2023-08-08 11:01:06,428 :: ERROR :: Function name in header '' is not matched with function name in definition 'UARTBufferHandler_fillBuffer' in line 229
+2023-08-08 11:01:06,428 :: ERROR :: Parameter in header 'UartBuffer self - buffer instance const uint8 data - source buffer pointer uint16 length - length of the message to be written to the buffer' is not matched with parameters in definition 'UARTBufferHandlerType *self, const uint8 *data, uint16 length' in line 229
+2023-08-08 11:01:06,429 :: ERROR :: Function name in header '' is not matched with function name in definition 'UARTBufferHandler_ReadBuffer' in line 277
+2023-08-08 11:01:06,430 :: ERROR :: Parameter in header 'UartBuffer self - buffer instance const uint8 destination - destination buffer pointer uint16 SizeOfDestBuffer - length of the message to be read out of the buffer' is not matched with parameters in definition 'UARTBufferHandlerType *self, uint8 *destination, uint16 SizeOfDestBuffer' in line 277
+2023-08-08 11:01:06,430 :: ERROR :: Return type in header: 's unit16 - Number of bytes actually read out of the buffer' is not matched with return type in definition 'uint16' in line 277
+2023-08-08 11:01:06,430 :: ERROR :: Function name in header '' is not matched with function name in definition 'UARTBufferHandler_GetBufferUsed' in line 321
+2023-08-08 11:01:06,430 :: ERROR :: Parameter in header 'UartBuffer self - buffer instance' is not matched with parameters in definition 'const UARTBufferHandlerType *self' in line 321
+2023-08-08 11:01:06,431 :: ERROR :: Function name in header '' is not matched with function name in definition 'UARTBufferHandler_GetFreeSize' in line 329
+2023-08-08 11:01:06,431 :: ERROR :: Parameter in header 'UartBuffer self - buffer instance' is not matched with parameters in definition 'const UARTBufferHandlerType *self' in line 329
+2023-08-08 11:01:06,432 :: ERROR :: Function name in header '' is not matched with function name in definition 'Appl_Uart_ReadIndication' in line 392
+2023-08-08 11:01:06,432 :: ERROR :: Parameter in header 'void' is not matched with parameters in definition 'const Uart_ChannelIdType Channel, const Uart_StatusType Status, const uint16 ReadLength' in line 392
+2023-08-08 11:01:06,433 :: ERROR :: Parameter in header 'const uint8 data - incoming data pointer uint16 length - length of the data' is not matched with parameters in definition 'const uint8 *data, uint16 length' in line 444
+2023-08-08 11:01:06,434 :: ERROR :: Parameter in header 'const uint8 data - data pointer uint16 length - Number of bytes to read' is not matched with parameters in definition 'uint8 *data, uint16 length' in line 469
+2023-08-08 11:01:06,435 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\EthernetTrcvDriver\DeSerStub\EthTrcv.c ..... 
+2023-08-08 11:01:06,439 :: ERROR :: Parameter in header 'Trcv ID , Cfg ID' is not matched with parameters in definition 'uint8 TrcvIdx_uint8, uint8 CfgIdx_uint8' in line 86
+2023-08-08 11:01:06,440 :: ERROR :: Parameter in header 'TrcvIdx_uint8 Index of the transceiver within the context of the Ethernet Transceiver Driver CtrlMode ETHTRCV_MODE_DOWN: disable the transceiver ETHTRCV_MODE_ACTIVE: enable the transceiver' is not matched with parameters in definition 'uint8 TrcvIdx_uint8, EthTrcv_ModeType TrcvMode' in line 119
+2023-08-08 11:01:06,441 :: ERROR :: Parameter in header 'IN: TrcvIdx_uint8 Index of the transceiver within the context of the Ethernet Transceiver Driver OUT: TrcvModePtr ETHTRCV_MODE_DOWN: the transceiver is disabled ETHTRCV_MODE_ACTIVE: the transceiver is enable' is not matched with parameters in definition 'uint8 TrcvIdx_uint8, EthTrcv_ModeType* TrcvModePtr' in line 150
+2023-08-08 11:01:06,442 :: ERROR :: Parameter in header 'IN: TrcvIdx_uint8 Index of the transceiver within the context of the Ethernet Transceiver Driver OUT: LinkStatePtr ETHTRCV_LINK_STATE_DOWN: transceiver is disconnected ETHTRCV_LINK_STATE_ACTIVE: transceiver is connected' is not matched with parameters in definition 'uint8 TrcvIdx_uint8, EthTrcv_LinkStateType* LinkStatePtr' in line 190
+2023-08-08 11:01:06,443 :: ERROR :: Parameter in header 'IN: Index of the transceiver within the context of the Ethernet Transceiver Driver OUT:' is not matched with parameters in definition 'uint8 TrcvIdx_uint8, EthTrcv_CableDiagResultType *EthTrcv_CableDiagResul' in line 221
+2023-08-08 11:01:06,444 :: ERROR :: Parameter in header 'IN: Index of the transceiver within the context of the Ethernet Transceiver Driver OUT:' is not matched with parameters in definition 'uint8 TrcvIdx_uint8, uint8* SigQty_p' in line 251
+2023-08-08 11:01:06,445 :: ERROR :: Parameter in header 'IN: Index of the transceiver within the context of the Ethernet Transceiver Driver OUT:' is not matched with parameters in definition 'uint8 TrcvIdx_uint8, uint8 Mode_uint8' in line 281
+2023-08-08 11:01:06,446 :: ERROR :: Parameter in header 'IN: Index of the transceiver within the context of the Ethernet Transceiver Driver OUT:' is not matched with parameters in definition 'uint8 TrcvIdx_uint8, uint8 Mode_uint8' in line 311
+2023-08-08 11:01:06,448 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\EthernetTrcvDriver\Realtek_RTL8211FI\EthTrcv.c ..... 
+2023-08-08 11:01:06,450 :: ERROR :: Parameter in header 'Trcv ID , Cfg ID' is not matched with parameters in definition 'uint8 TrcvIdx, uint8 CfgIdx' in line 56
+2023-08-08 11:01:06,451 :: ERROR :: Parameter in header 'TrcvIdx Index of the transceiver within the context of the Ethernet Transceiver Driver CtrlMode ETHTRCV_MODE_DOWN: disable the transceiver ETHTRCV_MODE_ACTIVE: enable the transceiver' is not matched with parameters in definition 'uint8 TrcvIdx, EthTrcv_ModeType TrcvMode' in line 90
+2023-08-08 11:01:06,452 :: ERROR :: Parameter in header 'IN: TrcvIdx Index of the transceiver within the context of the Ethernet Transceiver Driver OUT: TrcvModePtr ETHTRCV_MODE_DOWN: the transceiver is disabled ETHTRCV_MODE_ACTIVE: the transceiver is enable' is not matched with parameters in definition 'uint8 TrcvIdx, EthTrcv_ModeType* TrcvModePtr' in line 114
+2023-08-08 11:01:06,453 :: ERROR :: Parameter in header 'IN: TrcvIdx Index of the transceiver within the context of the Ethernet Transceiver Driver OUT: LinkStatePtr ETHTRCV_LINK_STATE_DOWN: transceiver is disconnected ETHTRCV_LINK_STATE_ACTIVE: transceiver is connected' is not matched with parameters in definition 'uint8 TrcvIdx, EthTrcv_LinkStateType* LinkStatePtr' in line 155
+2023-08-08 11:01:06,454 :: ERROR :: Function name in header 'EthTrcv_GetLinkState' is not matched with function name in definition 'EthTrcv_GetCableDiagnosticsResult' in line 174
+2023-08-08 11:01:06,454 :: ERROR :: Parameter in header 'IN: TrcvIdx Index of the transceiver within the context of the Ethernet Transceiver Driver OUT: LinkStatePtr ETHTRCV_LINK_STATE_DOWN: transceiver is disconnected ETHTRCV_LINK_STATE_ACTIVE: transceiver is connected' is not matched with parameters in definition 'uint8 TrcvIdx, EthTrcv_CableDiagResultType *EthTrcv_CableDiagResul' in line 174
+2023-08-08 11:01:06,455 :: ERROR :: Function name in header 'EthTrcv_GetLinkState' is not matched with function name in definition 'EthTrcv_GetPhySignalQuality' in line 179
+2023-08-08 11:01:06,455 :: ERROR :: Parameter in header 'IN: TrcvIdx Index of the transceiver within the context of the Ethernet Transceiver Driver OUT: LinkStatePtr ETHTRCV_LINK_STATE_DOWN: transceiver is disconnected ETHTRCV_LINK_STATE_ACTIVE: transceiver is connected' is not matched with parameters in definition 'uint8 TrcvIdx, uint8* SigQty' in line 179
+2023-08-08 11:01:06,456 :: ERROR :: Function name in header 'EthTrcv_GetLinkState' is not matched with function name in definition 'EthTrcv_SetPhyTestMode' in line 184
+2023-08-08 11:01:06,456 :: ERROR :: Parameter in header 'IN: TrcvIdx Index of the transceiver within the context of the Ethernet Transceiver Driver OUT: LinkStatePtr ETHTRCV_LINK_STATE_DOWN: transceiver is disconnected ETHTRCV_LINK_STATE_ACTIVE: transceiver is connected' is not matched with parameters in definition 'uint8 TrcvIdx, uint8 Mode' in line 184
+2023-08-08 11:01:06,457 :: ERROR :: Function name in header 'EthTrcv_GetLinkState' is not matched with function name in definition 'EthTrcv_SetPhyTxMode' in line 189
+2023-08-08 11:01:06,457 :: ERROR :: Parameter in header 'IN: TrcvIdx Index of the transceiver within the context of the Ethernet Transceiver Driver OUT: LinkStatePtr ETHTRCV_LINK_STATE_DOWN: transceiver is disconnected ETHTRCV_LINK_STATE_ACTIVE: transceiver is connected' is not matched with parameters in definition 'uint8 TrcvIdx, uint8 Mode' in line 189
+2023-08-08 11:01:06,457 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.ADCPlausibility\ADCP.c ..... 
+2023-08-08 11:01:06,459 :: ERROR :: Function header for 'boolean ADCP_Upper_Bound_check(uint16 AMonitorChReadADC_u16,uint16 AUpper_bound_u16)' in 85 not found in the file.
+2023-08-08 11:01:06,459 :: ERROR :: Function header for 'boolean ADCP_Lower_Bound_check(uint16 AMonitorChReadADC_u16, uint16 ALower_bound_u16)' in 86 not found in the file.
+2023-08-08 11:01:06,459 :: ERROR :: Function header for 'boolean ADCP_Bound_Check(uint16 AVoltage_u16,
+                                        ADCP_Bound_t const *AADCP_BoundValue_st)' in 87 not found in the file.
+2023-08-08 11:01:06,459 :: ERROR :: Function header for 'uint16 ADCP_Bound_set(uint16 AMonitorChReadADC_u16, uint8 Aindex_u8,
+                      uint8 Aconv_ratio_u8,ADCP_Bound_t * AADCP_bound_Value_st )' in 89 not found in the file.
+2023-08-08 11:01:06,459 :: ERROR :: Function header for 'void ADCP_ADC_InputPlausibilityCheck(void)' in 91 not found in the file.
+2023-08-08 11:01:06,459 :: ERROR :: Function header for 'void ADCP_ADC_RefPlausibilityCheck(void)' in 92 not found in the file.
+2023-08-08 11:01:06,460 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.ADCPlausibility\callout\ADCP_UserCallout.c ..... 
+2023-08-08 11:01:06,462 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,462 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.ADCPlausibility\cfg\ADCP_Cfg.c ..... 
+2023-08-08 11:01:06,464 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,464 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\McAL.AurixCoreDriver\AurixCoreDriver.c ..... 
+2023-08-08 11:01:06,467 :: ERROR :: 'PARAM' section is missing in function header for 'boolean CPU_isInPrivilegedMode(void)' in line 65
+2023-08-08 11:01:06,467 :: ERROR :: Return type in header: 's TRUE if in privileged mode, else FALSE' is not matched with return type in definition 'boolean' in line 65
+2023-08-08 11:01:06,468 :: ERROR :: Function name in header 'CPU_isInPrivilegedMode' is not matched with function name in definition 'AurixDriver_GetCpuMode' in line 68
+2023-08-08 11:01:06,468 :: ERROR :: 'PARAM' section is missing in function header for 'Aurix_cpuModeType_e AurixDriver_GetCpuMode( void )' in line 68
+2023-08-08 11:01:06,468 :: ERROR :: Return type in header: 's TRUE if in privileged mode, else FALSE' is not matched with return type in definition 'Aurix_cpuModeType_e' in line 68
+2023-08-08 11:01:06,468 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\McAL.ClockMonitoring\ClockMon.c ..... 
+2023-08-08 11:01:06,469 :: ERROR :: Function header for 'void ClockMon_Init(void)' in 54 not found in the file.
+2023-08-08 11:01:06,471 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\McAL.InternalVoltageMonitors\IVM.c ..... 
+2023-08-08 11:01:06,473 :: ERROR :: Function header for 'void IVM_Init(void)' in 119 not found in the file.
+2023-08-08 11:01:06,478 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\McAL.McuExtensions\McuExt_Cache.c ..... 
+2023-08-08 11:01:06,480 :: ERROR :: Function header for 'void RemoveDataCacheBypass(sint32 coreId)' in 83 not found in the file.
+2023-08-08 11:01:06,480 :: ERROR :: Function header for 'void RemoveProgramCacheBypass(sint32 coreId)' in 84 not found in the file.
+2023-08-08 11:01:06,480 :: ERROR :: Parameter in header 'core id' is not matched with parameters in definition 'sint32 coreId' in line 204
+2023-08-08 11:01:06,480 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 204
+2023-08-08 11:01:06,481 :: ERROR :: Parameter in header 'core id' is not matched with parameters in definition 'sint32 coreId' in line 254
+2023-08-08 11:01:06,481 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 254
+2023-08-08 11:01:06,481 :: ERROR :: Parameter in header 'core id' is not matched with parameters in definition 'sint32 coreId' in line 279
+2023-08-08 11:01:06,481 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 279
+2023-08-08 11:01:06,482 :: ERROR :: Parameter in header 'core id' is not matched with parameters in definition 'sint32 coreId' in line 299
+2023-08-08 11:01:06,482 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 299
+2023-08-08 11:01:06,482 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\McAL.McuExtensions\McuExt_DebugInformation.c ..... 
+2023-08-08 11:01:06,483 :: ERROR :: Function header for 'bool McuExt_isDebuggerConnected(void)' in 80 not found in the file.
+2023-08-08 11:01:06,483 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\McAL.McuExtensions\McuExt_Information.c ..... 
+2023-08-08 11:01:06,484 :: ERROR :: Function header for 'Std_ReturnType McuExt_GetUniqueID(uint32 * const uniqueID_p)' in 110 not found in the file.
+2023-08-08 11:01:06,485 :: ERROR :: 'PARAM' section is missing in function header for 'McuExt_RawResetType McuExt_GetLocalCopyOfResetRawValue(void)' in line 135
+2023-08-08 11:01:06,486 :: ERROR :: 'PARAM' section is missing in function header for 'void McuExt_StoreResetRawValue(void)' in line 156
+2023-08-08 11:01:06,488 :: ERROR :: Function name in header 'TRUSTED_McuExt_StoreResetRawValue' is not matched with function name in definition 'McuExt_GetJUNOUniqueID' in line 209
+2023-08-08 11:01:06,488 :: ERROR :: Parameter in header '[out] uniqueID_p pointer to store unique id' is not matched with parameters in definition 'uint64 * const uniqueID_p' in line 209
+2023-08-08 11:01:06,488 :: ERROR :: Return type in header: 'E_NOT_OK Error' is not matched with return type in definition 'Std_ReturnType' in line 209
+2023-08-08 11:01:06,488 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\McAL.McuExtensions\McuExt_McuReset.c ..... 
+2023-08-08 11:01:06,490 :: ERROR :: Parameter in header '[in] ptr contains the address of register to write' is not matched with parameters in definition 'void* ptr' in line 69
+2023-08-08 11:01:06,490 :: ERROR :: Return type in header: 'E_OK or E_NOT_OK' is not matched with return type in definition 'Std_ReturnType' in line 69
+2023-08-08 11:01:06,492 :: ERROR :: Function name in header 'TRUSTED_McuExt_PerformReset' is not matched with function name in definition 'McuExt_PerformSWTriggeredHardReset' in line 109
+2023-08-08 11:01:06,492 :: ERROR :: Parameter in header '[in] ptr contains the address of register to write' is not matched with parameters in definition 'void' in line 109
+2023-08-08 11:01:06,495 :: ERROR :: Function name in header 'TRUSTED_McuExt_PerformReset' is not matched with function name in definition 'McuExt_PerformSWTriggeredSoftReset' in line 134
+2023-08-08 11:01:06,495 :: ERROR :: Parameter in header '[in] ptr contains the address of register to write' is not matched with parameters in definition 'void' in line 134
+2023-08-08 11:01:06,495 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\McAL.McuExtensions\McuExt_PerfCounters.c ..... 
+2023-08-08 11:01:06,496 :: ERROR :: Parameter in header 'perfCounter1Mode - performance counter regsiter 1 mode perfCounter2Mode - performance counter regsiter 2 mode perfCounter3Mode - performance counter regsiter 3 mode' is not matched with parameters in definition 'McuExt_PerfCounter1_Mode perfCounter1Mode, McuExt_PerfCounter2_Mode perfCounter2Mode, McuExt_PerfCounter3_Mode perfCounter3Mode' in line 90
+2023-08-08 11:01:06,497 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 90
+2023-08-08 11:01:06,497 :: ERROR :: Parameter in header 'McuExt_Cpu_Perf structure which hold the measurement result' is not matched with parameters in definition 'McuExt_Cpu_Perf* result' in line 134
+2023-08-08 11:01:06,497 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 134
+2023-08-08 11:01:06,498 :: ERROR :: Function name in header 'McuExt_stopPerfCounters' is not matched with function name in definition 'if' in line 140
+2023-08-08 11:01:06,498 :: ERROR :: Parameter in header 'McuExt_Cpu_Perf structure which hold the measurement result' is not matched with parameters in definition 'NULL != result' in line 140
+2023-08-08 11:01:06,498 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'mesurements' in line 140
+2023-08-08 11:01:06,498 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\McAL.McuExtensions\McuExt_PortResistorSet.c ..... 
+2023-08-08 11:01:06,499 :: ERROR :: Function header for 'Std_ReturnType McuExt_PortEnablePullUp(uint16 Pin)' in 75 not found in the file.
+2023-08-08 11:01:06,499 :: ERROR :: Function header for 'Std_ReturnType TRUSTED_McuExt_PortEnablePullUp(void * ptr)' in 107 not found in the file.
+2023-08-08 11:01:06,500 :: ERROR :: Function header for 'Std_ReturnType mcuExt_portEnablePullUp_internal(uint16 Pin)' in 117 not found in the file.
+2023-08-08 11:01:06,500 :: ERROR :: Function header for 'Std_ReturnType McuExt_PortEnablePullDown(uint16 Pin)' in 175 not found in the file.
+2023-08-08 11:01:06,500 :: ERROR :: Function header for 'Std_ReturnType TRUSTED_McuExt_PortEnablePullDown(void * ptr)' in 207 not found in the file.
+2023-08-08 11:01:06,500 :: ERROR :: Function header for 'Std_ReturnType mcuExt_portEnablePullDown_internal(uint16 Pin)' in 217 not found in the file.
+2023-08-08 11:01:06,500 :: ERROR :: Function header for 'Std_ReturnType McuExt_PortDisablePullUpAndDown(uint16 Pin)' in 275 not found in the file.
+2023-08-08 11:01:06,500 :: ERROR :: Function header for 'Std_ReturnType TRUSTED_McuExt_PortDisablePullUpAndDown(void * ptr)' in 307 not found in the file.
+2023-08-08 11:01:06,501 :: ERROR :: Function header for 'Std_ReturnType mcuExt_portDisablePullUpAndDown_internal(uint16 Pin)' in 317 not found in the file.
+2023-08-08 11:01:06,501 :: ERROR :: Function header for 'boolean mcuExt_Check_IsPinAccessibleFromNonTrusted (uint16 Pin)' in 375 not found in the file.
+2023-08-08 11:01:06,501 :: ERROR :: Function header for 'boolean mcuExt_isMcuExtTrusted (void)' in 407 not found in the file.
+2023-08-08 11:01:06,501 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\McAL.McuExtensions\McuExt_WatchdogEventHandler.c ..... 
+2023-08-08 11:01:06,503 :: ERROR :: Function header for 'void McuExt_Wdg_66_IA_NmiNotification(void)' in 182 not found in the file.
+2023-08-08 11:01:06,503 :: ERROR :: Function header for 'void McuExt_PostProcessingOfWatchdogResets(void)' in 216 not found in the file.
+2023-08-08 11:01:06,504 :: ERROR :: Function header for 'uint32 McuExt_GetHWDGResetCause(void)' in 264 not found in the file.
+2023-08-08 11:01:06,504 :: ERROR :: Function header for 'uint32 McuExt_GetSWDGResetCause(void)' in 288 not found in the file.
+2023-08-08 11:01:06,504 :: ERROR :: Function header for 'void McuExt_SetWdgTimoutTimerAfterMemoryInit(void)' in 396 not found in the file.
+2023-08-08 11:01:06,505 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS.c ..... 
+2023-08-08 11:01:06,512 :: ERROR :: Return type in header: 'NA (void)' is not matched with return type in definition 'boolean' in line 244
+2023-08-08 11:01:06,513 :: ERROR :: Parameter in header 'uint8 Auss_Module,uint32  Auss_Data_u32' is not matched with parameters in definition 'uint8 Auss_Module,uint32 * Auss_Data_u32' in line 277
+2023-08-08 11:01:06,516 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 411
+2023-08-08 11:01:06,516 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 424
+2023-08-08 11:01:06,519 :: ERROR :: Function name in header 'AUSS_GetInitStatus()' is not matched with function name in definition 'AuSS_GetInitStatus' in line 552
+2023-08-08 11:01:06,519 :: ERROR :: Return type in header: 'AUSS_InitStatus_t: AUSS_INITSTATUS_NOINIT: AuSS module yet to be initialized AUSS_INITSTATUS_INITIALISED: AuSS module initialized' is not matched with return type in definition 'AuSS_InitStatus_t' in line 552
+2023-08-08 11:01:06,520 :: ERROR :: Return type in header: 'AUSS_ResetType_t reset reason' is not matched with return type in definition 'AuSS_ResetType_t' in line 578
+2023-08-08 11:01:06,522 :: ERROR :: Parameter in header 'status_p' is not matched with parameters in definition 'const AuSS_ModuleNumber_t module_e,
+                            const uint32*   expectedRegValue_ap,
+                            const uint32*   currentRegValue_ap,
+                            const uint32    numberOfRegs_u32,
+                            AuSS_ModuleCheck_Results_t* status_p' in line 674
+2023-08-08 11:01:06,522 :: ERROR :: Return type in header: 'retStatus_u8' is not matched with return type in definition 'uint8' in line 674
+2023-08-08 11:01:06,523 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 724
+2023-08-08 11:01:06,523 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 724
+2023-08-08 11:01:06,523 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 790
+2023-08-08 11:01:06,524 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 807
+2023-08-08 11:01:06,524 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 807
+2023-08-08 11:01:06,524 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 823
+2023-08-08 11:01:06,525 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 823
+2023-08-08 11:01:06,525 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 834
+2023-08-08 11:01:06,525 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 834
+2023-08-08 11:01:06,526 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 852
+2023-08-08 11:01:06,526 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 852
+2023-08-08 11:01:06,526 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 867
+2023-08-08 11:01:06,526 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 867
+2023-08-08 11:01:06,527 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 883
+2023-08-08 11:01:06,527 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 883
+2023-08-08 11:01:06,528 :: ERROR :: Return type in header: 'AUSS_InitStatus_t: AUSS_CHECK_FAIL: AuSS module is failed. AUSS_CHECK_PASS: No error in AuSS module.' is not matched with return type in definition 'uint8' in line 907
+2023-08-08 11:01:06,530 :: ERROR :: Parameter in header 'void' is not matched with parameters in definition 'AUSS_BISTRunControl_t Auss_BISTRun_Control_e' in line 970
+2023-08-08 11:01:06,531 :: ERROR :: Function name in header 'AuSS_BISTManager' is not matched with function name in definition 'AUSS_StartupBISTManager' in line 988
+2023-08-08 11:01:06,532 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 1096
+2023-08-08 11:01:06,532 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS_LBIST.c ..... 
+2023-08-08 11:01:06,533 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 44
+2023-08-08 11:01:06,534 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 44
+2023-08-08 11:01:06,534 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 62
+2023-08-08 11:01:06,534 :: ERROR :: Return type in header: 's result of CRC verification' is not matched with return type in definition 'boolean' in line 62
+2023-08-08 11:01:06,534 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 86
+2023-08-08 11:01:06,534 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 86
+2023-08-08 11:01:06,535 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 106
+2023-08-08 11:01:06,535 :: ERROR :: Return type in header: 's result of Reset operation' is not matched with return type in definition 'uint32' in line 106
+2023-08-08 11:01:06,535 :: ERROR :: Parameter in header 'uint32 signature,uint32 FaultSignature' is not matched with parameters in definition 'uint32 signature,uint32 *FaultSignature' in line 140
+2023-08-08 11:01:06,535 :: ERROR :: Return type in header: 's result of LBIST operation' is not matched with return type in definition 'uint32' in line 140
+2023-08-08 11:01:06,536 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 205
+2023-08-08 11:01:06,536 :: ERROR :: Return type in header: 's result of trigger operation' is not matched with return type in definition 'uint32' in line 205
+2023-08-08 11:01:06,536 :: ERROR :: Return type in header: 's Lbist First time check is ok or not' is not matched with return type in definition 'boolean' in line 246
+2023-08-08 11:01:06,537 :: ERROR :: Return type in header: 's LBIST status' is not matched with return type in definition 'uint32' in line 267
+2023-08-08 11:01:06,537 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS_MBIST.c ..... 
+2023-08-08 11:01:06,539 :: ERROR :: Function header for 'void AUSS_MoveToAddrParam0(const void *var)' in 39 not found in the file.
+2023-08-08 11:01:06,539 :: ERROR :: Function header for 'void AUSS_MoveToDataParam0(unsigned long var)' in 44 not found in the file.
+2023-08-08 11:01:06,539 :: ERROR :: Parameter in header 'SRAM ssh index' is not matched with parameters in definition 'uint8 mbistSRAM' in line 66
+2023-08-08 11:01:06,539 :: ERROR :: Return type in header: 's completion of init sequence' is not matched with return type in definition 'boolean' in line 66
+2023-08-08 11:01:06,540 :: ERROR :: Parameter in header 'SRAM ssh index' is not matched with parameters in definition 'uint8 mbistSRAM' in line 82
+2023-08-08 11:01:06,540 :: ERROR :: Return type in header: 's completion of mtu operation' is not matched with return type in definition 'boolean' in line 82
+2023-08-08 11:01:06,540 :: ERROR :: Parameter in header 'SRAM ssh index' is not matched with parameters in definition 'uint8 sshIndex' in line 116
+2023-08-08 11:01:06,541 :: ERROR :: Return type in header: 's current status of test' is not matched with return type in definition 'uint32' in line 116
+2023-08-08 11:01:06,541 :: ERROR :: Parameter in header 'SRAM ssh index' is not matched with parameters in definition 'uint8 mbistSRAM' in line 148
+2023-08-08 11:01:06,541 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 148
+2023-08-08 11:01:06,541 :: ERROR :: Parameter in header 'SRAM ssh index' is not matched with parameters in definition 'uint8 mbistSRAM' in line 170
+2023-08-08 11:01:06,541 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 170
+2023-08-08 11:01:06,542 :: ERROR :: Parameter in header 'SRAM ssh index' is not matched with parameters in definition 'uint8 mbistSRAM' in line 187
+2023-08-08 11:01:06,542 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 187
+2023-08-08 11:01:06,542 :: ERROR :: Parameter in header 'SRAM ssh index' is not matched with parameters in definition 'uint8 mbistSRAM' in line 206
+2023-08-08 11:01:06,542 :: ERROR :: Return type in header: 's status of clear operation' is not matched with return type in definition 'sint32' in line 206
+2023-08-08 11:01:06,543 :: ERROR :: Parameter in header 'SRAM ssh index' is not matched with parameters in definition 'uint8 mbistSRAM' in line 250
+2023-08-08 11:01:06,543 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'boolean' in line 250
+2023-08-08 11:01:06,543 :: ERROR :: Function name in header 'AUSS_MbistSetupNDST' is not matched with function name in definition 'AUSS_MbistTriggerNDST' in line 277
+2023-08-08 11:01:06,543 :: ERROR :: Parameter in header 'SRAM ssh index' is not matched with parameters in definition 'uint8 sshIndex' in line 277
+2023-08-08 11:01:06,544 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 277
+2023-08-08 11:01:06,544 :: ERROR :: Return type in header: 's MBIST status' is not matched with return type in definition 'uint32' in line 301
+2023-08-08 11:01:06,544 :: ERROR :: Function name in header 'AUSS_MbistRun' is not matched with function name in definition 'AUSS_MbistCheckResult' in line 316
+2023-08-08 11:01:06,544 :: ERROR :: Parameter in header 'void' is not matched with parameters in definition 'const AUSS_MbistConfGroupType* mbistConfGroup' in line 316
+2023-08-08 11:01:06,544 :: ERROR :: Return type in header: 's MBIST status' is not matched with return type in definition 'uint32' in line 316
+2023-08-08 11:01:06,545 :: ERROR :: Parameter in header 'group of SSH instances' is not matched with parameters in definition 'const AUSS_MbistConfGroupType* mbistConfGroup' in line 405
+2023-08-08 11:01:06,545 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'uint32' in line 405
+2023-08-08 11:01:06,546 :: ERROR :: Function name in header 'AUSS_MbistRunGroup' is not matched with function name in definition 'AUSS_MbistEnableGroup' in line 409
+2023-08-08 11:01:06,546 :: ERROR :: Parameter in header 'group of SSH instances' is not matched with parameters in definition 'const AUSS_MbistConfGroupType* mbistConfGroup' in line 409
+2023-08-08 11:01:06,546 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 409
+2023-08-08 11:01:06,547 :: ERROR :: Function name in header 'AUSS_MbistEnableGroup' is not matched with function name in definition 'AUSS_MbistConfigRange' in line 483
+2023-08-08 11:01:06,547 :: ERROR :: Parameter in header 'group of SSH instances' is not matched with parameters in definition 'const AUSS_MbistConfGroupType* mbistConfGroup' in line 483
+2023-08-08 11:01:06,547 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 483
+2023-08-08 11:01:06,548 :: ERROR :: Function name in header 'AUSS_MbistConfigRange' is not matched with function name in definition 'AUSS_MbistClearMem' in line 550
+2023-08-08 11:01:06,548 :: ERROR :: Parameter in header 'group of SSH instances' is not matched with parameters in definition 'const AUSS_MbistConfGroupType* mbistConfGroup' in line 550
+2023-08-08 11:01:06,548 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 550
+2023-08-08 11:01:06,549 :: ERROR :: Function name in header 'AUSS_MbistClearMem' is not matched with function name in definition 'AUSS_MbistRunNDST' in line 631
+2023-08-08 11:01:06,550 :: ERROR :: Parameter in header 'group of SSH instances' is not matched with parameters in definition 'const AUSS_MbistConfGroupType* mbistConfGroup' in line 631
+2023-08-08 11:01:06,550 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 631
+2023-08-08 11:01:06,550 :: ERROR :: Function name in header 'AUSS_MbistRunNDST' is not matched with function name in definition 'AUSS_MbistEnd' in line 655
+2023-08-08 11:01:06,550 :: ERROR :: Parameter in header 'group of SSH instances' is not matched with parameters in definition 'uint32 status' in line 655
+2023-08-08 11:01:06,550 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'uint32' in line 655
+2023-08-08 11:01:06,550 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS_MONBIST.c ..... 
+2023-08-08 11:01:06,552 :: ERROR :: Return type in header: 's MONBIST status' is not matched with return type in definition 'uint32' in line 41
+2023-08-08 11:01:06,552 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS_Mtu.c ..... 
+2023-08-08 11:01:06,553 :: ERROR :: Function header for 'AuSS_Check_Results_t AuSS_MtuCheckMcEccdRegs(
+                            const uint16* expectedEccdValues_u16,
+                            const uint32  nrOfInstances_u32)' in 61 not found in the file.
+2023-08-08 11:01:06,553 :: ERROR :: Function header for 'AuSS_Check_Results_t AuSS_MtuCheckMcFaultStsRegs(
+                                        const uint16* expectedFaultsValues_u16, 
+                                        const uint32  nrOfInstances_u32)' in 112 not found in the file.
+2023-08-08 11:01:06,553 :: ERROR :: Function header for 'AuSS_Check_Results_t AuSS_MtuCheckMcErrInfoRegs(
+                                            const uint16* expectedErrInfo_u16, 
+                                            const uint32 nrOfInstances_u32)' in 163 not found in the file.
+2023-08-08 11:01:06,554 :: ERROR :: Parameter in header 'const uint32' is not matched with parameters in definition 'AuSS_Check_Results_t*   returnResult_s,
+                const uint16*           expectedEccdValues_u16,
+                const uint16*           expectedFaultsValues_u16,
+                const uint16*           expectedErrInfoValues_u16,
+                const uint32            nrOfInstances_u32' in line 221
+2023-08-08 11:01:06,554 :: ERROR :: Return type in header: 'retStatus' is not matched with return type in definition 'uint8' in line 221
+2023-08-08 11:01:06,556 :: ERROR :: Function name in header 'AuSS_MtuRegValueCheck()' is not matched with function name in definition 'AuSS_MtuCheckSshMemoryInstAfterReset' in line 286
+2023-08-08 11:01:06,556 :: ERROR :: Parameter in header 'const uint32' is not matched with parameters in definition 'AuSS_ModuleCheck_Results_t* statusInfo_ps' in line 286
+2023-08-08 11:01:06,557 :: ERROR :: Return type in header: 'retStatus' is not matched with return type in definition 'uint8' in line 286
+2023-08-08 11:01:06,557 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS_RegMonTest.c ..... 
+2023-08-08 11:01:06,558 :: ERROR :: Function name in header 'RegMon_StartMTUTest' is not matched with function name in definition 'RegMon_RunTest' in line 41
+2023-08-08 11:01:06,558 :: ERROR :: Parameter in header 'Auss_sshlist' is not matched with parameters in definition 'const uint8* Auss_sshlist' in line 41
+2023-08-08 11:01:06,558 :: ERROR :: Return type in header: 's result of test' is not matched with return type in definition 'uint8' in line 41
+2023-08-08 11:01:06,558 :: ERROR :: Return type in header: 's result of test' is not matched with return type in definition 'uint8' in line 115
+2023-08-08 11:01:06,558 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS_rte.c ..... 
+2023-08-08 11:01:06,559 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,559 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS_Scu.c ..... 
+2023-08-08 11:01:06,561 :: ERROR :: Parameter in header 'startUpMemRegs_ap the name of an array of u32 is a pointer' is not matched with parameters in definition 'uint32* const startUpMemRegs_u32' in line 70
+2023-08-08 11:01:06,561 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'uint8' in line 70
+2023-08-08 11:01:06,562 :: ERROR :: Parameter in header 'struct AuSS_ModuleCheck_Results_t' is not matched with parameters in definition 'AuSS_ModuleCheck_Results_t* StatusInfo_ps' in line 103
+2023-08-08 11:01:06,562 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'uint8' in line 103
+2023-08-08 11:01:06,562 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS_Smu.c ..... 
+2023-08-08 11:01:06,563 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 72
+2023-08-08 11:01:06,563 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'uint8' in line 72
+2023-08-08 11:01:06,564 :: ERROR :: Parameter in header 'AuSS_SmuAlGrpStatusRegs_u32' is not matched with parameters in definition 'uint32* const AuSS_SmuAlGrpStatusRegs_u32' in line 94
+2023-08-08 11:01:06,564 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'Std_ReturnType' in line 94
+2023-08-08 11:01:06,565 :: ERROR :: Parameter in header 'struct AuSS_ModuleCheck_Results_t' is not matched with parameters in definition 'AuSS_ModuleCheck_Results_t* StatusInfo' in line 144
+2023-08-08 11:01:06,565 :: ERROR :: Return type in header: 'status' is not matched with return type in definition 'uint8' in line 144
+2023-08-08 11:01:06,565 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS_SmuAliveAlarm.c ..... 
+2023-08-08 11:01:06,567 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 43
+2023-08-08 11:01:06,567 :: ERROR :: Return type in header: 's status of command completion' is not matched with return type in definition 'Std_ReturnType' in line 43
+2023-08-08 11:01:06,567 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 81
+2023-08-08 11:01:06,567 :: ERROR :: Return type in header: 's status of AliveAlarmTest' is not matched with return type in definition 'Std_ReturnType' in line 81
+2023-08-08 11:01:06,568 :: ERROR :: Return type in header: 's result of test' is not matched with return type in definition 'uint32' in line 118
+2023-08-08 11:01:06,568 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\AuSS_SMURegMonTest.c ..... 
+2023-08-08 11:01:06,569 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 49
+2023-08-08 11:01:06,569 :: ERROR :: Return type in header: 's frequency in Hz' is not matched with return type in definition 'float32' in line 49
+2023-08-08 11:01:06,569 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 86
+2023-08-08 11:01:06,569 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 86
+2023-08-08 11:01:06,570 :: ERROR :: Parameter in header 'none' is not matched with parameters in definition 'void' in line 107
+2023-08-08 11:01:06,570 :: ERROR :: Return type in header: 's none' is not matched with return type in definition 'void' in line 107
+2023-08-08 11:01:06,570 :: ERROR :: Return type in header: 's result of test' is not matched with return type in definition 'uint32' in line 127
+2023-08-08 11:01:06,570 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\Cfg\AuSS_Cfg.c ..... 
+2023-08-08 11:01:06,572 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,572 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\Cfg\AuSS_Mtu_Cfg.c ..... 
+2023-08-08 11:01:06,574 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,574 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\Cfg\AuSS_Scu_Cfg.c ..... 
+2023-08-08 11:01:06,574 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,575 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\MCAL.SafetyStartup\Cfg\AuSS_Smu_Cfg.c ..... 
+2023-08-08 11:01:06,575 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,575 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\PFlashMonitoring\cfg\PFMON_LCfg.c ..... 
+2023-08-08 11:01:06,577 :: INFO :: No function found in the file.
+2023-08-08 11:01:06,577 :: INFO :: Checking function headers in C:\Users\LQR1COB\Downloads\c_files\Platform\PFlashMonitoring\src\PFMON.c ..... 
+2023-08-08 11:01:06,580 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 85

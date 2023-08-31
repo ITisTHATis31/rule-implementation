@@ -1,0 +1,255 @@
+2023-08-30 14:55:43,534 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyStartup\AurixSafetyStartup\AuSS.c ..... 
+2023-08-30 14:55:43,534 :: INFO :: Rule : RBCM_C_RULE_010, Rule Info : Check function header of global functions in c files
+2023-08-30 14:55:43,538 :: ERROR :: Function header for 'uint8 AuSS_ConvertRegtoSSHInstance(const uint32* LMemtestReg)' in 99 not found in the file.
+2023-08-30 14:55:43,544 :: ERROR :: Parameter in header 'Startup_Log LStartupErrorData' is not matched with parameters in definition 'const Startup_Log* LStartupErrorData' in line 200
+2023-08-30 14:55:43,554 :: ERROR :: Parameter in header 'Startup_Log LAuSSLBISTErrorData' is not matched with parameters in definition 'const Startup_Log* LAuSSLBISTErrorData' in line 390
+2023-08-30 14:55:43,562 :: ERROR :: Parameter in header 'Startup_Log LAuSSMonbistErrData' is not matched with parameters in definition 'const Startup_Log* LAuSSMonbistErrData' in line 543
+2023-08-30 14:55:43,564 :: ERROR :: Parameter in header 'Startup_Log LAuSS_FWCheckErrData' is not matched with parameters in definition 'const Startup_Log* LAuSS_FWCheckErrData' in line 586
+2023-08-30 14:55:43,566 :: ERROR :: Parameter in header 'Startup_Log LAuSS_MCUCheckErrData' is not matched with parameters in definition 'const Startup_Log* LAuSS_MCUCheckErrData' in line 630
+2023-08-30 14:55:43,569 :: ERROR :: Parameter in header 'Startup_Log LAuSSSMUALiveTstErrData' is not matched with parameters in definition 'const Startup_Log* LAuSSSMUALiveTstErrData' in line 673
+2023-08-30 14:55:43,571 :: ERROR :: Parameter in header 'Startup_Log LAuSS_SMURegMonErrData' is not matched with parameters in definition 'const Startup_Log* LAuSS_SMURegMonErrData' in line 715
+2023-08-30 14:55:43,573 :: ERROR :: Parameter in header 'Startup_Log LAuSS_MTURegMonErrData' is not matched with parameters in definition 'const Startup_Log* LAuSS_MTURegMonErrData' in line 758
+2023-08-30 14:55:43,576 :: ERROR :: Parameter in header 'Startup_Log LAuSS_MBISTErrData' is not matched with parameters in definition 'const Startup_Log* LAuSS_MBISTErrData' in line 803
+2023-08-30 14:55:43,589 :: INFO :: Rule : RBCM_C_RULE_035, Rule Info : Check brace alignment in c files
+2023-08-30 14:55:43,590 :: INFO :: Rule : RBCM_C_RULE_037, Rule Info : Check presence of blocks after control flow statements in c files
+2023-08-30 14:55:43,605 :: INFO :: ==============================================================================================================================
+2023-08-30 14:55:43,605 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyStartup\AurixSafetyStartup\AuSS.h ..... 
+2023-08-30 14:55:43,605 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 14:55:43,611 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 14:55:43,615 :: ERROR :: Parameter in header 'Startup_Log LStartupErrorData' is not matched with parameters in prototype 'const Startup_Log* LStartupErrorData' in line 52
+2023-08-30 14:55:43,618 :: ERROR :: Function name in header 'AuSS_PhaseSynErrDaraCrc_Check()' is not matched with function name in prototype 'AuSS_PhaseSynErrDataCrc_Check' in line 87
+2023-08-30 14:55:43,622 :: ERROR :: Parameter in header 'AuSS_LBISTErrDataType LAuss_LBISTErrdata' is not matched with parameters in prototype 'void' in line 121
+2023-08-30 14:55:43,624 :: ERROR :: Parameter in header 'Startup_Log LAuSSLBISTErrorData' is not matched with parameters in prototype 'const Startup_Log* LAuSSLBISTErrorData' in line 138
+2023-08-30 14:55:43,628 :: ERROR :: Parameter in header 'Startup_Log LAuSSMonbistErrData' is not matched with parameters in prototype 'const Startup_Log* LAuSSMonbistErrData' in line 172
+2023-08-30 14:55:43,630 :: ERROR :: Parameter in header 'Startup_Log LAuSS_MCUCheckErrData' is not matched with parameters in prototype 'const Startup_Log* LAuSS_MCUCheckErrData' in line 190
+2023-08-30 14:55:43,632 :: ERROR :: Parameter in header 'Startup_Log LAuSS_FWCheckErrData' is not matched with parameters in prototype 'const Startup_Log* LAuSS_FWCheckErrData' in line 208
+2023-08-30 14:55:43,634 :: ERROR :: Parameter in header 'Startup_Log LAuSSSMUALiveSTErrData' is not matched with parameters in prototype 'const Startup_Log* LAuSSSMUALiveTstErrData' in line 225
+2023-08-30 14:55:43,636 :: ERROR :: Parameter in header 'Startup_Log LAuSS_SMURegMonErrData' is not matched with parameters in prototype 'const Startup_Log* LAuSS_SMURegMonErrData' in line 242
+2023-08-30 14:55:43,638 :: ERROR :: Parameter in header 'Startup_Log LAuSS_MTURegMonErrData' is not matched with parameters in prototype 'const Startup_Log* LAuSS_MTURegMonErrData' in line 260
+2023-08-30 14:55:43,641 :: ERROR :: Parameter in header 'Startup_Log LAuSS_MBISTErrData' is not matched with parameters in prototype 'const Startup_Log* LAuSS_MBISTErrData' in line 278
+2023-08-30 14:55:43,643 :: INFO :: ==============================================================================================================================
+2023-08-30 14:55:43,643 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyStartup\AurixSafetyStartup\AuSS_FSPTest.c ..... 
+2023-08-30 14:55:43,643 :: INFO :: Rule : RBCM_C_RULE_010, Rule Info : Check function header of global functions in c files
+2023-08-30 14:55:43,644 :: ERROR :: Function header for 'void AuSS_FSPSTErrDataCrc_Calculation(void)' in 58 not found in the file.
+2023-08-30 14:55:43,646 :: INFO :: Rule : RBCM_C_RULE_035, Rule Info : Check brace alignment in c files
+2023-08-30 14:55:43,646 :: INFO :: Rule : RBCM_C_RULE_037, Rule Info : Check presence of blocks after control flow statements in c files
+2023-08-30 14:55:43,648 :: INFO :: ==============================================================================================================================
+2023-08-30 14:55:43,648 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyStartup\AurixSafetyStartup\AuSS_if.h ..... 
+2023-08-30 14:55:43,648 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 14:55:43,649 :: ERROR :: Line 44 is considered executable due to the presence of keyword: 'return '
+2023-08-30 14:55:43,651 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 14:55:43,659 :: ERROR :: Parameter in header 'void' is not matched with parameters in prototype 'AUSS_FSP_State_t LFSP_State' in line 140
+2023-08-30 14:55:43,659 :: INFO :: ==============================================================================================================================
+2023-08-30 14:55:43,659 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyStartup\AurixSafetyStartup\AuSS_PhaseSynTest.c ..... 
+2023-08-30 14:55:43,659 :: INFO :: Rule : RBCM_C_RULE_010, Rule Info : Check function header of global functions in c files
+2023-08-30 14:55:43,660 :: ERROR :: Function header for 'void AuSS_PhaseSynErrDataCrc_Calculation(void)' in 71 not found in the file.
+2023-08-30 14:55:43,662 :: INFO :: Rule : RBCM_C_RULE_035, Rule Info : Check brace alignment in c files
+2023-08-30 14:55:43,662 :: INFO :: Rule : RBCM_C_RULE_037, Rule Info : Check presence of blocks after control flow statements in c files
+2023-08-30 14:55:43,664 :: INFO :: ==============================================================================================================================
+2023-08-30 14:55:43,664 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyStartup\AurixSafetyStartup\AuSS_Types.h ..... 
+2023-08-30 14:55:43,664 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 14:55:43,666 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 14:55:43,667 :: INFO :: ==============================================================================================================================
+2023-08-30 14:55:43,667 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyStartup\AurixSafetyStartup\test\unittest\GTestAUSSStubs.h ..... 
+2023-08-30 14:55:43,667 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 14:55:43,678 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 14:55:43,680 :: ERROR :: Function header for 'unsigned AUSS_CRC32( unsigned b, unsigned a );' in 418 not found in the file.
+2023-08-30 14:55:43,680 :: ERROR :: Function header for 'Dio_LevelType Dio_ReadChannel(Dio_ChannelType channelId_t);' in 419 not found in the file.
+2023-08-30 14:55:43,680 :: ERROR :: Function header for 'uint16 Startup_CalcRT_CRC16(const uint8* data_ptr, uint32 len, uint16 seed);' in 420 not found in the file.
+2023-08-30 14:55:43,680 :: ERROR :: Function header for 'void AuSS_FailureCallout(uint8* LErrData,uint8 LErrorDataSize_u8);' in 421 not found in the file.
+2023-08-30 14:55:43,681 :: ERROR :: Function header for 'void AuSS_CorrectableErrCallout(uint8* LErrData,uint8 LErrorDataSize_u8);' in 422 not found in the file.
+2023-08-30 14:55:43,681 :: ERROR :: Function header for 'void Mcal_WritePeripEndInitProtReg(volatile void* const RegAddress,const uint32 DataValue);' in 423 not found in the file.
+2023-08-30 14:55:43,681 :: ERROR :: Function header for 'void AuSM_SMU_AlarmStatusClear(uint8 aAGCIndex_u8);' in 424 not found in the file.
+2023-08-30 14:55:43,681 :: ERROR :: Function header for 'void AuSS_FSPSTErrDataCrc_Calculation();' in 426 not found in the file.
+2023-08-30 14:55:43,682 :: ERROR :: Function header for 'void AuSS_FSP_FBRead(AUSS_FSP_State_t LFSP_State);' in 427 not found in the file.
+2023-08-30 14:55:43,682 :: ERROR :: Function header for 'uint8 AuSS_ConvertRegtoSSHInstance(const uint32* LMemtestReg);' in 428 not found in the file.
+2023-08-30 14:55:43,682 :: ERROR :: Function header for 'boolean AuSS_BIST_CrcCheck(const Startup_Log* LStartupErrorData);' in 429 not found in the file.
+2023-08-30 14:55:43,682 :: ERROR :: Function header for 'boolean AuSS_FSPErrDataCrc_Check();' in 430 not found in the file.
+2023-08-30 14:55:43,682 :: ERROR :: Function header for 'boolean AuSS_FSPSelfTst_ErrCheckAndReport();' in 431 not found in the file.
+2023-08-30 14:55:43,683 :: ERROR :: Function header for 'boolean AuSS_PhaseSynErrDataCrc_Check();' in 432 not found in the file.
+2023-08-30 14:55:43,683 :: ERROR :: Function header for 'boolean AuSS_LBISTErrDataCrc_Check();' in 433 not found in the file.
+2023-08-30 14:55:43,683 :: ERROR :: Function header for 'boolean AuSS_LBIST_ErrCheckAndReport(const Startup_Log* LAuSSLBISTErrorData);' in 434 not found in the file.
+2023-08-30 14:55:43,683 :: ERROR :: Function header for 'void AuSS_LBISTRetriggerCnt_Update(uint32 LAuss_Retrig_Cnt_u32);' in 435 not found in the file.
+2023-08-30 14:55:43,684 :: ERROR :: Function header for 'boolean AuSS_Crc_Check();' in 436 not found in the file.
+2023-08-30 14:55:43,684 :: ERROR :: Function header for 'boolean AuSS_MONBIST_ErrCheckAndReport(const Startup_Log* LAuSSMonbistErrData);' in 437 not found in the file.
+2023-08-30 14:55:43,684 :: ERROR :: Function header for 'boolean AuSS_FWCheck_ErrCheckAndReport(const Startup_Log* LAuSS_FWCheckErrData);' in 438 not found in the file.
+2023-08-30 14:55:43,684 :: ERROR :: Function header for 'boolean AuSS_MCUCheck_ErrCheckAndReport(const Startup_Log* LAuSS_MCUCheckErrData);' in 439 not found in the file.
+2023-08-30 14:55:43,684 :: ERROR :: Function header for 'boolean AuSS_SMUAliveTest_ErrCheckAndReport(const Startup_Log* LAuSSSMUALiveTstErrData);' in 440 not found in the file.
+2023-08-30 14:55:43,685 :: ERROR :: Function header for 'boolean AuSS_SMURegMon_ErrCheckAndReport(const Startup_Log* LAuSS_SMURegMonErrData);' in 441 not found in the file.
+2023-08-30 14:55:43,685 :: ERROR :: Function header for 'boolean AuSS_MTURegMon_ErrCheckAndReport(const Startup_Log* LAuSS_MTURegMonErrData);' in 442 not found in the file.
+2023-08-30 14:55:43,685 :: ERROR :: Function header for 'boolean AuSS_MBIST_ErrCheckAndReport(const Startup_Log* LAuSS_MBISTErrData);' in 443 not found in the file.
+2023-08-30 14:55:43,685 :: ERROR :: Function header for 'boolean AuSS_PhaseSynErrCheckAndReport();' in 444 not found in the file.
+2023-08-30 14:55:43,686 :: ERROR :: Function header for 'void AuSS_ErrCheckAndReport(void);' in 445 not found in the file.
+2023-08-30 14:55:43,686 :: ERROR :: Function header for 'void AuSS_SelfTest_MainFunction(void);' in 446 not found in the file.
+2023-08-30 14:55:43,686 :: ERROR :: Function header for 'void AuSS_PhaseSyncErr_SelfTest();' in 447 not found in the file.
+2023-08-30 14:55:43,686 :: ERROR :: Function header for 'void AuSS_PhaseSynErrDataCrc_Calculation();' in 448 not found in the file.
+2023-08-30 14:55:43,686 :: INFO :: ==============================================================================================================================
+2023-08-30 15:04:33,534 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\RegisterMonitor\Aurix.RegisterMonitor\REGM.c ..... 
+2023-08-30 15:04:33,535 :: INFO :: Rule : RBCM_C_RULE_010, Rule Info : Check function header of global functions in c files
+2023-08-30 15:04:33,543 :: ERROR :: Parameter in header 'uint8 ACoreId_u8, uint8 ARegister_u8' is not matched with parameters in definition 'uint8 ACPUIndex_u8,
+                                                       uint8 ARegister_u8' in line 119
+2023-08-30 15:04:33,545 :: ERROR :: Parameter in header 'uint8 ACPUIndex_u8, uint8 ARegister_u8' is not matched with parameters in definition 'uint8 ACPUIndex_u8,
+                                                      uint8 ARegister_u8' in line 142
+2023-08-30 15:04:33,547 :: ERROR :: Parameter in header 'ACPUIndex_u8' is not matched with parameters in definition 'uint8 ACPUIndex_u8' in line 165
+2023-08-30 15:04:33,547 :: ERROR :: Return type in header: 'uint8' is not matched with return type in definition 'uint32' in line 165
+2023-08-30 15:04:33,549 :: ERROR :: Parameter in header 'uint8 ACoreId_u8,uint8 APeripheral_u8, uint8 ARegister_u8' is not matched with parameters in definition 'uint8 ACoreId_u8,uint8 APeripheral_u8,
+                                                       uint8 ARegister_u8' in line 188
+2023-08-30 15:04:33,552 :: ERROR :: Parameter in header 'uint8 ACoreId_u8,uint8 APeripheral_u8, uint8 ARegister_u8' is not matched with parameters in definition 'uint8 ACoreId_u8,uint8 APeripheral_u8,
+                                                      uint8 ARegister_u8' in line 210
+2023-08-30 15:04:33,556 :: ERROR :: Parameter in header 'uint8 ACoreId_u8,uint8 AErrPeripheral_u8, uint8 AErrRegister_u8, uint32 AActual_Value_u32' is not matched with parameters in definition 'uint8 ACoreId_u8,uint8 AErrPeripheral_u8,uint8 AErrRegister_u8,
+                             uint32 AActual_Value_u32' in line 258
+2023-08-30 15:04:33,556 :: ERROR :: Function header for 'void REGM_U32Reg_CheckForFault(uint8 ACoreId_u8,uint8 APeripheral_u8, uint8 ANoOfRegisters_u8)' in 299 not found in the file.
+2023-08-30 15:04:33,558 :: ERROR :: Parameter in header 'uint8 APeripheral_u8' is not matched with parameters in definition 'uint8 ACoreId_u8,uint8 APeripheral_u8' in line 343
+2023-08-30 15:04:33,558 :: ERROR :: Return type in header: 'uint8' is not matched with return type in definition 'bool' in line 343
+2023-08-30 15:04:33,562 :: ERROR :: Parameter in header 'uint8 ARegister_u8' is not matched with parameters in definition 'uint8 ACoreId_u8,uint8 ARegister_u8' in line 402
+2023-08-30 15:04:33,564 :: ERROR :: Parameter in header 'uint8 ARegister_u8' is not matched with parameters in definition 'uint8 ACoreId_u8,uint8 ARegister_u8' in line 424
+2023-08-30 15:04:33,567 :: ERROR :: Function header for 'void REGM_CheckForFault_u16Registers(uint8 ACoreId_u8)' in 469 not found in the file.
+2023-08-30 15:04:33,569 :: ERROR :: Parameter in header 'ACoreId_u8' is not matched with parameters in definition 'uint8 ACoreId_u8' in line 532
+2023-08-30 15:04:33,572 :: ERROR :: Function header for 'STD_ON
+    if(REGM_GlobalCfgPtr[ACoreId_u8].REGM_U32Reg_CfgTable != NULL)' in 597 not found in the file.
+2023-08-30 15:04:33,574 :: ERROR :: Function header for 'void REGM_Init(const REGM_CfgSetType* ConfigPtr)' in 631 not found in the file.
+2023-08-30 15:04:33,575 :: INFO :: Rule : RBCM_C_RULE_035, Rule Info : Check brace alignment in c files
+2023-08-30 15:04:33,575 :: ERROR :: Brace misalignment at line 85
+2023-08-30 15:04:33,575 :: ERROR :: Brace misalignment at line 574
+2023-08-30 15:04:33,575 :: ERROR :: Brace misalignment at line 575
+2023-08-30 15:04:33,575 :: ERROR :: Brace misalignment at line 640
+2023-08-30 15:04:33,575 :: INFO :: Rule : RBCM_C_RULE_037, Rule Info : Check presence of blocks after control flow statements in c files
+2023-08-30 15:04:33,585 :: INFO :: ==============================================================================================================================
+2023-08-30 15:04:33,585 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\RegisterMonitor\Aurix.RegisterMonitor\REGM.h ..... 
+2023-08-30 15:04:33,585 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 15:04:33,589 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 15:04:33,589 :: ERROR :: Function header for 'void REGM_ReportError(uint8 ACoreId_u8,uint8 AErrPeripheral_u8, uint8 AErrRegister_u8,
+                             uint32 AActual_Value_u32);' not found in the file.
+2023-08-30 15:04:33,592 :: ERROR :: Function name in header 'REGM_CheckForFault(uint8 ACoreId_u8,uint8 APeripheral_u8, uint8 ANoOfRegisters_u32)' is not matched with function name in prototype 'REGM_U32Reg_CheckForFault' in line 83
+2023-08-30 15:04:33,592 :: ERROR :: Parameter in header 'uint8 ACoreId_u8,uint8 APeripheral_u8, uint8 ANoOfRegisters_u32' is not matched with parameters in prototype 'uint8 ACoreId_u8,uint8 APeripheral_u8, uint8 ANoOfRegisters_u8' in line 83
+2023-08-30 15:04:33,596 :: ERROR :: Function name in header 'REGM_CheckForFault_Registers_u16(uint8 ACoreId_u8)' is not matched with function name in prototype 'REGM_CheckForFault_u16Registers' in line 119
+2023-08-30 15:04:33,601 :: INFO :: ==============================================================================================================================
+2023-08-30 15:04:33,601 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\RegisterMonitor\Aurix.RegisterMonitor\REGM_if.h ..... 
+2023-08-30 15:04:33,601 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 15:04:33,603 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 15:04:33,607 :: ERROR :: Parameter in header 'REGM_CfgSetType ConfigPtr' is not matched with parameters in prototype 'const REGM_CfgSetType* ConfigPtr' in line 73
+2023-08-30 15:04:33,607 :: INFO :: ==============================================================================================================================
+2023-08-30 15:04:33,607 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\RegisterMonitor\Aurix.RegisterMonitor\REGM_Types.h ..... 
+2023-08-30 15:04:33,607 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 15:04:33,611 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 15:04:33,612 :: INFO :: ==============================================================================================================================
+2023-08-30 15:04:33,612 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\RegisterMonitor\Aurix.RegisterMonitor\test\unittest\GTestREGMStubs.h ..... 
+2023-08-30 15:04:33,612 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 15:04:33,688 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 15:04:33,706 :: ERROR :: Function header for 'void REGM_CheckForFault_u32Registers(uint8 ACoreId_u8);' in 3564 not found in the file.
+2023-08-30 15:04:33,711 :: ERROR :: Function header for 'uint32 REGM_GetExpectedValue_u32Registers(uint8 ACoreId_u8,uint8 APeripheral_u8,uint8 ARegister_u8);' in 3565 not found in the file.
+2023-08-30 15:04:33,715 :: ERROR :: Function header for 'uint32 REGM_GetValue_u32Registers(uint8 ACoreId_u8,uint8 APeripheral_u8,uint8 ARegister_u8);' in 3566 not found in the file.
+2023-08-30 15:04:33,720 :: ERROR :: Function header for 'uint32 REGM_GetMax_u32Registers(uint8 ACoreId_u8,uint8 APeripheral_u8);' in 3567 not found in the file.
+2023-08-30 15:04:33,724 :: ERROR :: Function header for 'uint32 REGM_GetMax_u16Registers(uint8 ACoreId_u8);' in 3568 not found in the file.
+2023-08-30 15:04:33,728 :: ERROR :: Function header for 'uint32 REGM_GetMax_CPURegisters(uint8 ACPUIndex_u8);' in 3569 not found in the file.
+2023-08-30 15:04:33,733 :: ERROR :: Function header for 'uint16 REGM_GetExpectedValue_u16Registers(uint8 ACoreId_u8,uint8 ARegister_u8);' in 3570 not found in the file.
+2023-08-30 15:04:33,737 :: ERROR :: Function header for 'uint16 REGM_GetValue_u16Registers(uint8 ACoreId_u8,uint8 ARegister_u8);' in 3571 not found in the file.
+2023-08-30 15:04:33,741 :: ERROR :: Function header for 'uint32 REGM_GetExpectedValue_CPURegisters(uint8 ACPUIndex_u8,uint8 ARegister_u8);' in 3572 not found in the file.
+2023-08-30 15:04:33,746 :: ERROR :: Function header for 'uint32 REGM_GetValue_CPURegisters(uint8 ACPUIndex_u8,uint8 ARegister_u8);' in 3573 not found in the file.
+2023-08-30 15:04:33,750 :: ERROR :: Function header for 'void REGM_MainFunction();' in 3574 not found in the file.
+2023-08-30 15:04:33,755 :: ERROR :: Function header for 'void REGM_Init(const REGM_CfgSetType* ConfigPtr);' in 3575 not found in the file.
+2023-08-30 15:04:33,759 :: ERROR :: Function header for 'void REGM_CheckForFault_CoreX_Registers(uint8 ACoreId_u8);' in 3576 not found in the file.
+2023-08-30 15:04:33,763 :: ERROR :: Function header for 'bool REGM_CheckIfConfigured(uint8 ACoreId_u8,uint8 APeripheral_u8);' in 3577 not found in the file.
+2023-08-30 15:04:33,768 :: ERROR :: Function header for 'void REGM_CheckForFault_u16Registers(uint8 ACoreId_u8);' in 3578 not found in the file.
+2023-08-30 15:04:33,772 :: ERROR :: Function header for 'void REGM_U32Reg_CheckForFault(uint8 ACoreId_u8,uint8 APeripheral_u8, uint8 ANoOfRegisters_u8);' in 3579 not found in the file.
+2023-08-30 15:04:33,776 :: ERROR :: Function header for 'void REGM_ReportError(uint8 ACoreId_u8,uint8 AErrPeripheral_u8, uint8 AErrRegister_u8,uint32 AActual_Value_u32);' in 3580 not found in the file.
+2023-08-30 15:04:33,781 :: ERROR :: Function header for 'uint32 Mcal_GetCpuIndex(void);' in 3581 not found in the file.
+2023-08-30 15:04:33,785 :: ERROR :: Function header for 'uint32 Mcal_lGetCpuIndex(void);' in 3582 not found in the file.
+2023-08-30 15:04:33,790 :: ERROR :: Function header for 'void REGM_CheckForFault_CPURegisters(uint8 ACoreId_u32);' in 3583 not found in the file.
+2023-08-30 15:04:33,794 :: ERROR :: Function header for 'void REGM_UserCallout(const void* const AErrorData_p,const uint8 AErrorDataSize_u8);' in 3584 not found in the file.
+2023-08-30 15:04:33,794 :: INFO :: ==============================================================================================================================
+2023-08-30 15:15:11,379 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyManager\AurixSafetyManager\AuSM.c ..... 
+2023-08-30 15:15:11,379 :: INFO :: Rule : RBCM_C_RULE_010, Rule Info : Check function header of global functions in c files
+2023-08-30 15:15:11,388 :: ERROR :: Function header for 'void AuSM_Init(void)' in 241 not found in the file.
+2023-08-30 15:15:11,397 :: ERROR :: Parameter in header 'uint32  - aAlramGroupInitStatus_u32' is not matched with parameters in definition 'uint32 * aAlramGroupInitStatus_u32' in line 422
+2023-08-30 15:15:11,400 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 452
+2023-08-30 15:15:11,402 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 490
+2023-08-30 15:15:11,404 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 522
+2023-08-30 15:15:11,407 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 553
+2023-08-30 15:15:11,407 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 553
+2023-08-30 15:15:11,409 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 574
+2023-08-30 15:15:11,409 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 574
+2023-08-30 15:15:11,412 :: ERROR :: Parameter in header 'None' is not matched with parameters in definition 'void' in line 624
+2023-08-30 15:15:11,412 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 624
+2023-08-30 15:15:11,414 :: ERROR :: Parameter in header 'uint8 - RT Instance' is not matched with parameters in definition 'uint8 aRTInstanceNum_u8' in line 646
+2023-08-30 15:15:11,414 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 646
+2023-08-30 15:15:11,417 :: ERROR :: Parameter in header 'uint8 - aAGCIndex_u8; Alarm group index' is not matched with parameters in definition 'uint8 aAGCIndex_u8' in line 669
+2023-08-30 15:15:11,417 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 669
+2023-08-30 15:15:11,419 :: ERROR :: Parameter in header 'uint8 - AGC Number' is not matched with parameters in definition 'uint8 aAGCNumber_u8' in line 727
+2023-08-30 15:15:11,419 :: ERROR :: Return type in header: 'None' is not matched with return type in definition 'void' in line 727
+2023-08-30 15:15:11,420 :: ERROR :: Function header for 'void AuSM_SMU_SendCommand(uint8 Acmdvalue_u8,
+                                                  uint8 Aargvalue_u8)' in 729 not found in the file.
+2023-08-30 15:15:11,422 :: INFO :: Rule : RBCM_C_RULE_035, Rule Info : Check brace alignment in c files
+2023-08-30 15:15:11,423 :: INFO :: Rule : RBCM_C_RULE_037, Rule Info : Check presence of blocks after control flow statements in c files
+2023-08-30 15:15:11,434 :: ERROR :: Rule violation at line 696: }while((0x0u != LSMUAlarmStatus_u32) &&
+2023-08-30 15:15:11,434 :: INFO :: ==============================================================================================================================
+2023-08-30 15:15:11,434 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyManager\AurixSafetyManager\AuSM.h ..... 
+2023-08-30 15:15:11,434 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 15:15:11,442 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 15:15:11,447 :: ERROR :: Parameter in header 'None' is not matched with parameters in prototype 'void' in line 192
+2023-08-30 15:15:11,449 :: ERROR :: Parameter in header 'None' is not matched with parameters in prototype 'void' in line 214
+2023-08-30 15:15:11,450 :: ERROR :: Return type in header: 'None' is not matched with return type in prototype 'void' in line 214
+2023-08-30 15:15:11,452 :: ERROR :: Parameter in header 'None' is not matched with parameters in prototype 'void' in line 233
+2023-08-30 15:15:11,452 :: ERROR :: Return type in header: 'None' is not matched with return type in prototype 'void' in line 233
+2023-08-30 15:15:11,454 :: ERROR :: Parameter in header 'None' is not matched with parameters in prototype 'uint8 aAGCIndex_u8' in line 250
+2023-08-30 15:15:11,454 :: ERROR :: Return type in header: 'None' is not matched with return type in prototype 'void' in line 250
+2023-08-30 15:15:11,457 :: ERROR :: Function name in header 'AuSM_SMU_AlarmStatusClear()' is not matched with function name in prototype 'AuSM_SmuInterruptHandler' in line 264
+2023-08-30 15:15:11,457 :: ERROR :: Parameter in header '[in] -uint8 - Smu_index' is not matched with parameters in prototype 'uint8 Isrindex' in line 264
+2023-08-30 15:15:11,457 :: ERROR :: Return type in header: '-' is not matched with return type in prototype 'void' in line 264
+2023-08-30 15:15:11,459 :: ERROR :: Parameter in header 'void' is not matched with parameters in prototype 'uint8 aISR_NMI_index' in line 281
+2023-08-30 15:15:11,460 :: ERROR :: Return type in header: 'AUSM_Smu_ConfigData_t Alarmconfig , uint8 Alarm_index' is not matched with return type in prototype 'void' in line 281
+2023-08-30 15:15:11,463 :: ERROR :: Parameter in header 'None' is not matched with parameters in prototype 'void' in line 312
+2023-08-30 15:15:11,463 :: ERROR :: Return type in header: 'None' is not matched with return type in prototype 'void' in line 312
+2023-08-30 15:15:11,466 :: ERROR :: Function name in header 'AuSM_ClearMtuECCD()' is not matched with function name in prototype 'Os_Isr_SrcSmuHandlerInt_0' in line 324
+2023-08-30 15:15:11,466 :: ERROR :: Parameter in header '[in] -' is not matched with parameters in prototype 'void' in line 324
+2023-08-30 15:15:11,466 :: ERROR :: Return type in header: '-' is not matched with return type in prototype 'void' in line 324
+2023-08-30 15:15:11,470 :: ERROR :: Function name in header 'AuSM_ClearMtuECCD()' is not matched with function name in prototype 'Os_Isr_SrcSmuHandlerInt_1' in line 336
+2023-08-30 15:15:11,470 :: ERROR :: Parameter in header '[in] -' is not matched with parameters in prototype 'void' in line 336
+2023-08-30 15:15:11,470 :: ERROR :: Return type in header: '-' is not matched with return type in prototype 'void' in line 336
+2023-08-30 15:15:11,474 :: ERROR :: Function name in header 'AuSM_ClearMtuECCD()' is not matched with function name in prototype 'Os_Isr_SrcSmuHandlerInt_2' in line 348
+2023-08-30 15:15:11,474 :: ERROR :: Parameter in header '[in] -' is not matched with parameters in prototype 'void' in line 348
+2023-08-30 15:15:11,474 :: ERROR :: Return type in header: '-' is not matched with return type in prototype 'void' in line 348
+2023-08-30 15:15:11,478 :: ERROR :: Function name in header 'AuSM_ClearMtuECCD()' is not matched with function name in prototype 'Os_SMUTrapHandlerFunction' in line 361
+2023-08-30 15:15:11,479 :: ERROR :: Parameter in header '[in] -' is not matched with parameters in prototype 'void' in line 361
+2023-08-30 15:15:11,479 :: ERROR :: Return type in header: '-' is not matched with return type in prototype 'void' in line 361
+2023-08-30 15:15:11,480 :: INFO :: ==============================================================================================================================
+2023-08-30 15:15:11,481 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyManager\AurixSafetyManager\AuSM_if.h ..... 
+2023-08-30 15:15:11,481 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 15:15:11,485 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 15:15:11,490 :: ERROR :: Parameter in header 'uint32  - aAlramGroupInitStatus_u32' is not matched with parameters in prototype 'uint32 * aAlramGroupInitStatus_u32' in line 79
+2023-08-30 15:15:11,492 :: ERROR :: Parameter in header 'None' is not matched with parameters in prototype 'void' in line 97
+2023-08-30 15:15:11,494 :: ERROR :: Parameter in header 'None' is not matched with parameters in prototype 'void' in line 115
+2023-08-30 15:15:11,494 :: ERROR :: Return type in header: 'None' is not matched with return type in prototype 'Std_ReturnType' in line 115
+2023-08-30 15:15:11,503 :: ERROR :: Parameter in header 'None' is not matched with parameters in prototype 'void' in line 189
+2023-08-30 15:15:11,503 :: ERROR :: Return type in header: 'None' is not matched with return type in prototype 'void' in line 189
+2023-08-30 15:15:11,505 :: ERROR :: Parameter in header 'uint8 - RT Instance' is not matched with parameters in prototype 'uint8 aRTInstanceNum_u8' in line 209
+2023-08-30 15:15:11,505 :: ERROR :: Return type in header: 'None' is not matched with return type in prototype 'void' in line 209
+2023-08-30 15:15:11,507 :: ERROR :: Parameter in header 'uint8 - AGC Number' is not matched with parameters in prototype 'uint8 aAGCNumber_u8' in line 226
+2023-08-30 15:15:11,507 :: ERROR :: Return type in header: 'None' is not matched with return type in prototype 'void' in line 226
+2023-08-30 15:15:11,507 :: INFO :: ==============================================================================================================================
+2023-08-30 15:15:11,507 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyManager\AurixSafetyManager\AuSM_Irq.c ..... 
+2023-08-30 15:15:11,507 :: INFO :: Rule : RBCM_C_RULE_010, Rule Info : Check function header of global functions in c files
+2023-08-30 15:15:11,509 :: ERROR :: Function header for 'uint8 Smuhandler_GetNumberofAlarm(void)' in 146 not found in the file.
+2023-08-30 15:15:11,509 :: ERROR :: Function header for 'void Os_Isr_SrcSmuHandlerInt_0(void)' in 172 not found in the file.
+2023-08-30 15:15:11,510 :: ERROR :: Function header for 'void Os_Isr_SrcSmuHandlerInt_1(void)' in 197 not found in the file.
+2023-08-30 15:15:11,510 :: ERROR :: Function header for 'void Os_Isr_SrcSmuHandlerInt_2(void)' in 223 not found in the file.
+2023-08-30 15:15:11,510 :: ERROR :: Function header for 'void Os_SMUTrapHandlerFunction(void)' in 248 not found in the file.
+2023-08-30 15:15:11,510 :: ERROR :: Function header for 'void AuSM_SmuInterruptHandler(uint8 Isrindex)' in 253 not found in the file.
+2023-08-30 15:15:11,512 :: INFO :: Rule : RBCM_C_RULE_035, Rule Info : Check brace alignment in c files
+2023-08-30 15:15:11,513 :: INFO :: Rule : RBCM_C_RULE_037, Rule Info : Check presence of blocks after control flow statements in c files
+2023-08-30 15:15:11,518 :: INFO :: ==============================================================================================================================
+2023-08-30 15:15:11,519 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyManager\AurixSafetyManager\AuSM_Types.h ..... 
+2023-08-30 15:15:11,519 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 15:15:11,520 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 15:15:11,521 :: INFO :: ==============================================================================================================================
+2023-08-30 15:15:11,521 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyManager\AurixSafetyManager\test\unittest\GTestAuSM_Cfg.h ..... 
+2023-08-30 15:15:11,521 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 15:15:11,531 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 15:15:11,533 :: INFO :: ==============================================================================================================================
+2023-08-30 15:15:11,533 :: INFO :: Checking C:\Users\LQR1COB\Downloads\c_files\AurixSafetyManager\AurixSafetyManager\test\unittest\GTestAuSM_Stubs.h ..... 
+2023-08-30 15:15:11,533 :: INFO :: Rule : RBCM_C_RULE_016, Rule Info : Check executable code in header file
+2023-08-30 15:15:11,560 :: INFO :: Rule : RBCM_C_RULE_011, Rule Info : Check function header of global functions in h files
+2023-08-30 15:15:11,567 :: ERROR :: Function header for 'uint8 Smuhandler_GetNumberofAlarm(void);' in 1326 not found in the file.
+2023-08-30 15:15:11,568 :: ERROR :: Function header for 'Std_ReturnType Smu_SetupErrorPin(void);' in 1327 not found in the file.
+2023-08-30 15:15:11,569 :: ERROR :: Function header for 'Std_ReturnType Smu_InitCheck (const Smu_ConfigType* const ConfigPtr);' in 1328 not found in the file.
+2023-08-30 15:15:11,569 :: INFO :: ==============================================================================================================================
