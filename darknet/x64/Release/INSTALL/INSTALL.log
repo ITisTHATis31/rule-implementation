@@ -1,0 +1,14 @@
+﻿  1>
+  -- Install configuration: "Release"
+  -- Installing: C:/Users/LQR1COB/darknet/darknet.lib
+  -- Installing: C:/Users/LQR1COB/darknet/darknet.dll
+  -- Installing: C:/Users/LQR1COB/darknet/include/darknet/darknet.h
+  -- Installing: C:/Users/LQR1COB/darknet/include/darknet/yolo_v2_class.hpp
+  -- Installing: C:/Users/LQR1COB/darknet/uselib.exe
+  -- Installing: C:/Users/LQR1COB/darknet/darknet.exe
+  -- Installing: C:/Users/LQR1COB/darknet/share/darknet/DarknetTargets.cmake
+  -- Installing: C:/Users/LQR1COB/darknet/share/darknet/DarknetTargets-release.cmake
+  -- Installing: C:/Users/LQR1COB/darknet/share/darknet/DarknetConfig.cmake
+  -- Installing: C:/Users/LQR1COB/darknet/share/darknet/DarknetConfigVersion.cmake
+  -- Installing: C:/Users/LQR1COB/darknet/share/darknet/FindCUDNN.cmake
+  -- Installing: C:/Users/LQR1COB/darknet/share/darknet/FindPThreads4W.cmake

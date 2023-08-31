@@ -1,0 +1,12 @@
+C:/Users/LQR1COB/darknet/darknet.lib
+C:/Users/LQR1COB/darknet/darknet.dll
+C:/Users/LQR1COB/darknet/include/darknet/darknet.h
+C:/Users/LQR1COB/darknet/include/darknet/yolo_v2_class.hpp
+C:/Users/LQR1COB/darknet/uselib.exe
+C:/Users/LQR1COB/darknet/darknet.exe
+C:/Users/LQR1COB/darknet/share/darknet/DarknetTargets.cmake
+C:/Users/LQR1COB/darknet/share/darknet/DarknetTargets-release.cmake
+C:/Users/LQR1COB/darknet/share/darknet/DarknetConfig.cmake
+C:/Users/LQR1COB/darknet/share/darknet/DarknetConfigVersion.cmake
+C:/Users/LQR1COB/darknet/share/darknet/FindCUDNN.cmake
+C:/Users/LQR1COB/darknet/share/darknet/FindPThreads4W.cmake
